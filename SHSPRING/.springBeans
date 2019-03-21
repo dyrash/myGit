@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.6.201809180658-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[true]]></enableImports>
+	<configs>
+		<config>src/main/webapp/WEB-INF/servlet/servlet-statement.xml</config>
+	</configs>
+	<autoconfigs>
+		<config>src/main/webapp/WEB-INF/context/applicationContext-statement.xml</config>
+		<config>src/main/webapp/WEB-INF/context/applicationContext-aop.xml</config>
+		<config>src/main/webapp/WEB-INF/servlet/servlet-management.xml</config>
+		<config>src/main/webapp/WEB-INF/context/applicationContext-base.xml</config>
+		<config>src/main/webapp/WEB-INF/context/applicationContext-servlet.xml</config>
+		<config>src/main/webapp/WEB-INF/servlet/servlet-main.xml</config>
+		<config>src/main/webapp/WEB-INF/context/applicationContext-management.xml</config>
+		<config>src/main/webapp/WEB-INF/context/applicationContext-account.xml</config>
+		<config>src/main/webapp/WEB-INF/context/applicationContext-jdbc.xml</config>
+		<config>src/main/webapp/WEB-INF/servlet/servlet-base.xml</config>
+		<config>src/main/webapp/WEB-INF/servlet/servlet-slip.xml</config>
+		<config>src/main/webapp/WEB-INF/servlet/servlet-account.xml</config>
+		<config>src/main/webapp/WEB-INF/context/applicationContext.xml</config>
+		<config>src/main/webapp/WEB-INF/context/applicationContext-slip.xml</config>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>

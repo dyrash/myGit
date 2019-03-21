@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:c="http://www.springframework.org/schema/c"
+    xmlns:cache="http://www.springframework.org/schema/cache"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+    xmlns:jee="http://www.springframework.org/schema/jee"
+    xmlns:lang="http://www.springframework.org/schema/lang"
+    xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xmlns:task="http://www.springframework.org/schema/task"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:util="http://www.springframework.org/schema/util"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+        http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-3.2.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+        http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd
+        http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.2.xsd
+        http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-3.2.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+        http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.2.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd">
+	<!--  serviceFacade -->
+	<bean id="statementServiceFacade" class="com.sh.account.statement.serviceFacade.StatementServiceFacadeImpl"
+		p:statementApplicationService-ref="statementApplicationService" />
+	<bean id="earlyStatementServiceFacade" class="com.sh.account.statement.serviceFacade.EarlyStatementServiceFacadeImpl"
+		p:earlyStatementApplicationService-ref="earlyStatementApplicationService" />	
+	<bean id="earlyIncomeStatementServiceFacade" class="com.sh.account.statement.serviceFacade.EarlyIncomeStatementServiceFacadeImpl"
+		p:earlyIncomeStatementApplicationService-ref="earlyIncomeStatementApplicationService" />	
+		
+		
+	<!--  applicaionFacade -->
+	<bean id="statementApplicationService" class="com.sh.account.statement.applicationService.StatementApplicationServiceImpl"
+		p:trialBalanceDAO-ref="trialBalanceDAO" 
+		p:incomeStatementDAO-ref="incomeStatementDAO" 
+		p:financialPositionDAO-ref="financialPositionDAO"/>
+	
+	<bean id="earlyStatementApplicationService" class="com.sh.account.statement.applicationService.EarlyStatementApplicationServiceImpl"
+		p:earlyAssetDAO-ref="earlyAssetDAO"/>
+		
+	<bean id="earlyIncomeStatementApplicationService" class="com.sh.account.statement.applicationService.EarlyIncomeStatementApplicationServiceImpl"
+		p:earlyIncomeStatementDAO-ref="earlyIncomeStatementDAO"/>
+		
+		
+	<!--  DAO -->
+    <bean id="trialBalanceDAO"
+          class="com.sh.account.statement.dao.TrialBalanceDAOImpl"
+          p:dataSourceTransactionManager-ref="dataSourceTransactionManager" />
+          
+      <bean id="incomeStatementDAO"
+          class="com.sh.account.statement.dao.IncomeStatementDAOImpl"
+          p:dataSourceTransactionManager-ref="dataSourceTransactionManager" />
+          
+    <bean id="financialPositionDAO"
+          class="com.sh.account.statement.dao.FinancialPositionDAOImpl"
+          p:dataSourceTransactionManager-ref="dataSourceTransactionManager" />     
+                 
+    <bean id="earlyIncomeStatementDAO"
+          class="com.sh.account.statement.dao.EarlyIncomeStatementDAOImpl"
+          p:dataSourceTransactionManager-ref="dataSourceTransactionManager" />
+          
+    <bean id="earlyAssetDAO"
+          class="com.sh.account.statement.dao.EarlyAssetDAOImpl"
+          p:dataSourceTransactionManager-ref="dataSourceTransactionManager" />                  
+</beans>
