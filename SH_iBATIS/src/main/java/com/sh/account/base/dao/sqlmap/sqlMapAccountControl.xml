@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQLMap 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+    
+    
+<sqlMap namespace="accountControl">
+
+<typeAlias alias="accountControlBean" type="com.sh.account.base.to.AccountControlBean"/>
+
+    <resultMap id="accountControlResult" class="accountControlBean" >
+        <result property="accountCode" column="ACCOUNT_CODE"/>
+        <result property="controlCode" column="CONTROL_CODE"/>
+        <result property="detailName" column="DETAIL_NAME"/>
+        <result property="detailType" column="DETAIL_TYPE"/>        
+    </resultMap>
+    
+     <select id="selectAccountControlList" resultMap="accountControlResult" parameterClass="string">
+    <![CDATA[
+		SELECT ac.ACCOUNT_CODE, ac.CONTROL_CODE, ac.DETAIL_NAME, ac.DETAIL_TYPE 
+		FROM ACCOUNT a, account_control ac WHERE a.ACCOUNT_CODE=ac.ACCOUNT_CODE 
+		AND a.ACCOUNT_CODE=#accountCode#
+    ]]>
+    </select>
+    
+    
+    <insert id="insertAccountControl" parameterClass="accountControlBean">
+   		 <![CDATA[
+   			INSERT INTO ACCOUNT_CONTROL VALUES(#accountCode#,#controlCode#,#detailName#,#detailType#)
+   		]]>
+    </insert>
+    
+    
+    <delete id="deleteAccountControl" parameterClass="accountControlBean">
+    	<![CDATA[
+			DELETE FROM ACCOUNT_CONTROL WHERE CONTROL_CODE = #controlCode# AND ACCOUNT_CODE =#accountCode#
+   		 ]]>
+    </delete>
+	
+
+
+
+</sqlMap>

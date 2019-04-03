@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQLMap 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+    
+<sqlMap namespace="account">
+	      <typeAlias alias="accountBean" type="com.sh.account.base.to.AccountBean"/>
+
+    <resultMap id="accountResult" class="accountBean" >
+        <result property="accountInnerCode" column="ACCOUNT_INNER_CODE"/>
+		<result property="parentAccountInnerCode" column="PARENT_ACCOUNT_INNER_CODE" />
+		<result property="accountCode" column="ACCOUNT_CODE" />
+		<result property="accountCharacter" column="ACCOUNT_CHARACTER" />
+		<result property="accountName" column="ACCOUNT_NAME" />
+		<result property="accountDisplayNameWithCode" column="ACCOUNT_DISPLAY_NAME_WITH_CODE" />
+		<result property="accountDisplayName" column="ACCOUNT_DISPLAY_NAME" />
+		<result property="accountDivision" column="ACCOUNT_DIVISION" />
+		<result property="accountUseCheck" column="ACCOUNT_USE_CHECK" />
+		<result property="accountDescription" column="ACCOUNT_DESCRIPTION" />
+		<result property="groupCode" column="GROUP_CODE" />
+    </resultMap>
+
+    <select id="selectAccountList" resultMap="accountResult">
+    <![CDATA[
+
+    SELECT * FROM ACCOUNT ORDER BY ACCOUNT_INNER_CODE
+    ]]>
+    </select>
+    
+    
+    <select id="findSelectAccountList" resultMap="accountResult">
+    <![CDATA[
+
+    SELECT * FROM ACCOUNT WHERE ACCOUNT_INNER_CODE= #code#
+    ]]>
+    </select>
+    
+    <select id="findAccountList" resultMap="accountResult">
+    <![CDATA[
+
+    SELECT * FROM ACCOUNT ORDER BY ACCOUNT_INNER_CODE
+    ]]>
+    </select>
+    
+    <select id="findParentAccountList" resultMap="accountResult">
+    <![CDATA[
+
+	    SELECT * FROM ACCOUNT WHERE ACCOUNT_INNER_CODE LIKE '%-%' 
+		AND PARENT_ACCOUNT_INNER_CODE IS NOT NULL AND ACCOUNT_INNER_CODE NOT IN ('0101-0175','0176-0250') 
+		ORDER BY ACCOUNT_INNER_CODE
+    ]]>
+    </select>
+    
+    <update id="editAccountList" parameterClass="accountBean">
+    <![CDATA[
+		UPDATE ACCOUNT SET ACCOUNT_NAME = #accountName#, ACCOUNT_CHARACTER=#accountCharacter#, ACCOUNT_DESCRIPTION=#accountDescription# WHERE ACCOUNT_INNER_CODE = #accountInnerCode#
+    ]]>
+    </update>
+
+    <select id="findDetailAccountList" resultMap="accountResult">
+    <![CDATA[
+	    SELECT * FROM ACCOUNT WHERE PARENT_ACCOUNT_INNER_CODE=#code# 
+    	AND ACCOUNT_INNER_CODE NOT LIKE '%-%' AND PARENT_ACCOUNT_INNER_CODE IS NOT NULL  ORDER BY ACCOUNT_INNER_CODE
+    ]]>
+    </select>
+    
+</sqlMap>

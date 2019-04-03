@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQLMap 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="menu">
+<typeAlias alias="menuBean" type="com.sh.base.to.MenuBean"/>    
+    <resultMap class="menuBean" id="menuResult">
+    	<result property="menuCode" column="MENU_CODE"/>
+    	<result property="menuName" column="MENU_NAME"/>
+    	<result property="url" column="URL"/>
+    	<result property="parentMenuCode" column="PARENT_MENU_CODE"/>
+    <!-- 	<result property="authorityName" column="MENU_CODE"/>   -->  
+    	<result property="isAccessDenied" column="IS_ACCESS_DENIED"/>    
+    </resultMap>
+    
+    <select id="selectMenuList" resultMap="menuResult" parameterClass="string">
+    	<![CDATA[
+    		SELECT MA.MENU_CODE, M.MENU_NAME, M.PARENT_MENU_CODE, M.URL, MA.IS_ACCESS_DENIED
+	        FROM EMPLOYEE E, MENU_AVAILABLE_BY_POSITION MA, MENU M, POSITION P
+	        WHERE MA.DEPT_CODE=E.DEPT_CODE
+	        AND MA.POSITION_CODE=E.POSITION_CODE
+	        AND MA.MENU_CODE = M.MENU_CODE
+	        AND E.POSITION_CODE=P.POSITION_CODE
+	        AND E.EMP_CODE=#empCode# ORDER BY M.MENU_CODE 
+    	]]>    
+    </select>
+    <!-- resultMap="menuResult"> -->
+    <select id="selectAllMenuList" resultClass="menuBean">
+    	<![CDATA[
+    		SELECT MENU_CODE,MENU_NAME,PARENT_MENU_CODE,URL FROM MENU ORDER BY MENU_CODE
+    	]]>    
+    </select>    
+</sqlMap>
+    

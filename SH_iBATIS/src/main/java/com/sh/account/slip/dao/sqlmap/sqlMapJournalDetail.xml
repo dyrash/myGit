@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQLMap 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+    
+<sqlMap namespace="journalDetail">
+	
+		<typeAlias alias="journalDetailBean" type="com.sh.account.slip.to.JournalDetailBean"/>
+   
+   		<resultMap id="journalDetailResult" class="journalDetailBean" >
+   		
+        	<result property="journalDetailNo" column="JOURNAL_DETAIL_NO"/>
+        	<result property="journalNo" column="JOURNAL_NO"/>
+        	<result property="slipNo" column="SLIP_NO"/>
+			<result property="item1" column="ITEM1" nullValue=""/>
+			<result property="value1" column="VALUE1" nullValue=""/>
+			<result property="item2" column="ITEM2" nullValue=""/>
+			<result property="value2" column="VALUE2" nullValue=""/>
+			<result property="item3" column="ITEM3" nullValue=""/>
+			<result property="value3" column="VALUE3" nullValue=""/>
+			<result property="item4" column="ITEM4" nullValue=""/>
+			<result property="value4" column="VALUE4" nullValue=""/>
+			<result property="item5" column="ITEM5" nullValue=""/>
+			<result property="value5" column="VALUE5" nullValue=""/>
+    </resultMap>
+	<cacheModel id="accountCache" type="FIFO" readOnly="true" serialize="false">
+   <flushInterval hours="2"/>
+   <flushOnExecute  statement="journalDetail.insertJournalDetail"/>
+   <flushOnExecute  statement="journalDetail.updateJournalDetail"/>
+   <flushOnExecute  statement="journalDetail.deleteJournalDetail"/>
+   <property name="size" value="10"/>
+</cacheModel>
+
+
+	<select id="selectJournalDetailList"  remapResults="true" resultMap="journalDetailResult" parameterClass="java.lang.String">
+    <![CDATA[
+	SELECT * FROM JOURNAL_DETAIL WHERE JOURNAL_NO = #journalNo#
+    ]]>
+    </select>
+    
+    
+    <insert id="insertJournalDetail"  parameterClass="journalDetailBean">
+    <![CDATA[
+   		INSERT INTO JOURNAL_DETAIL VALUES
+       (
+       		#journalDetailNo#,
+         	#journalNo#,
+    		#item1#,
+    		#value1#,
+    		#item2#,
+    		#value2#,
+    		#item3#,
+    		#value3#,
+    		#item4#,
+    		#value4#,
+    		#item5#,
+    		#value5#,
+    		#slipNo#
+       )
+    ]]>
+    </insert>
+    
+    
+    <update id="updateJournalDetail"  parameterClass="journalDetailBean">
+    <![CDATA[
+   		UPDATE JOURNAL_DETAIL 
+   		SET ITEM1=#item1#,
+    		VALUE1=#value1#,
+    		ITEM2=#item2#,
+    		VALUE2=#value2#,
+    		ITEM3=#item3#,
+    		VALUE3=#value3#,
+    		ITEM4=#item4#,
+    		VALUE4=#value4#,
+    		ITEM5=#item5#,
+    		VALUE5=#value5# 
+		 WHERE JOURNAL_DETAIL_NO = #journalDetailNo#
+    ]]>
+    </update>
+    
+     <delete id="deleteJournalDetail" parameterClass="journalDetailBean">
+    <![CDATA[
+		DELETE FROM JOURNAL_DETAIL WHERE SLIP_NO=#slipNo#
+    ]]>
+    </delete>
+    
+
+
+</sqlMap>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQLMap 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+    
+    <sqlMap namespace="code">
+    	<typeAlias alias="codeBean" type="com.sh.base.to.CodeBean"/>
+
+   		<resultMap id="codeResult" class="codeBean" >
+       	<result property="divisionCode" column="DIVISION_CODE_NO" />
+        <result property="codeName" column="DIVISION_CODE_NAME"/>
+        <result property="codeUseCheck" column="CODE_USE_CHECK"/>   
+        <result property="codeChangeAvailable" column="CODE_CHANGE_AVAILABLE"/>   
+        <!-- <result property="codeDetailList" select="detailCode.selectDetailCodeList" column="DIVISION_CODE" /> -->
+        <!-- <result property="division" column="DIVISION"/> -->
+        	     
+    	</resultMap>
+
+    	<select id="selectCodeList" resultMap="codeResult">
+  		  <![CDATA[
+  		  SELECT C.DIVISION_CODE_NO
+		     , C.DIVISION_CODE_NAME
+		     , C.CODE_CHANGE_AVAILABLE
+		     , CD.CODE_USE_CHECK 
+		  FROM CODE C
+		     , CODE_DETAIL CD 
+		 WHERE C.DIVISION_CODE_NO=CD.DIVISION_CODE_NO 
+		 GROUP BY C.DIVISION_CODE_NO
+		     , C.DIVISION_CODE_NAME
+		     , C.CODE_CHANGE_AVAILABLE
+		     , CD.CODE_USE_CHECK
+		     , CD.CODE_USE_CHECK 
+		ORDER BY C.DIVISION_CODE_NO
+    	
+   		 	]]>
+    	</select>
+  
+  
+    <insert id="insertCode" parameterClass="codeBean">
+    <![CDATA[
+    INSERT INTO CODE VALUES(#divisionCode#, #codeName#, #codeUseCheck#,#codeChangeAvailable#,##)
+    
+    ]]>
+    </insert>
+    
+      <update id="updateCode" parameterClass="codeBean">
+    	<![CDATA[
+   		
+   		UPDATE CODE SET DIVISION_CODE_NAME = #codeName# WHERE DIVISION_CODE_NO = #divisionCode#
+    	
+    	]]>
+    	</update>
+    
+    <delete id="deleteCode" parameterClass="String">
+    
+        <![CDATA[
+			DELETE CODE WHERE DIVISION_CODE_NO = #divisionCode#
+   		 ]]>
+    
+    </delete>
+    
+    
+    </sqlMap>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQLMap 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="financial">
+
+	<typeAlias
+		type="com.sh.account.statement.to.FinancialPositionBean"
+		alias="FinancialPositionBean" />
+	<resultMap class="FinancialPositionBean" id="FinancialPositionResult">
+		<result property="accountName" column="ACCOUNT_NAME" />
+		<result property="clPrice" column="CL_PRICE" nullValue="0" />
+		<result property="crPrice" column="CR_PRICE" nullValue="0" />
+		<result property="elPrice" column="EL_PRICE" nullValue="0" />
+		<result property="erPrice" column="ER_PRICE" nullValue="0" />
+	</resultMap>
+
+	<parameterMap class="java.util.HashMap" id="FinancialPositionParam">
+		<parameter property="fromDate" mode="IN"
+			javaType="java.lang.String" jdbcType="VARCHAR" />
+			
+		<parameter property="toDate" mode="IN"
+			javaType="java.lang.String" jdbcType="VARCHAR" />
+
+		<parameter property="ERROR_CODE" mode="OUT"
+			javaType="java.lang.Integer" jdbcType="DECIMAL" />
+
+		<parameter property="ERROR_MSG" mode="OUT"
+			javaType="java.lang.String" jdbcType="VARCHAR" />
+
+		<parameter property="RESULT" mode="OUT"
+			javaType="java.sql.ResultSet" jdbcType="ORACLECURSOR" />
+
+	</parameterMap>
+
+	<procedure id="findFinancialPositionList" resultMap="FinancialPositionResult"
+		parameterMap="FinancialPositionParam">
+		<![CDATA[
+		{call FINANCIAL_POSITION(?,?,?,?,?)}
+		]]>
+	</procedure>
+	
+</sqlMap>

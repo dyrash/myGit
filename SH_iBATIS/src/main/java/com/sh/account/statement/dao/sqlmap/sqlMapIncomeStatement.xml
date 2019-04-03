@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQLMap 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+    
+    <sqlMap namespace="incomeStatement" >
+    	<typeAlias alias="incomeStatementBean" type="com.sh.account.statement.to.IncomeStatementBean"/>
+		<resultMap id="incomeStatementResult"  class="incomeStatementBean">
+		
+		<result property="accountName" column="ACCOUNT_NAME"/>
+        <result property="currentPrice" column="CURRENT_PRICE" nullValue="0"/>
+        <result property="currentTotal" column="CURRENT_TOTAL" nullValue="0"/>
+        <result property="earlyPrice" column="EARLY_PRICE" nullValue="0"/>
+        <result property="earlyTotal" column="EARLY_TOTAL" nullValue="0"/>
+		</resultMap>   
+		 
+		<parameterMap  id="IncomStatementParam" class="java.util.Map">
+			<parameter property="fromDate" jdbcType="VARCHAR" javaType="java.lang.String" mode="IN" />
+			<parameter property="toDate" jdbcType="VARCHAR" javaType="java.lang.String" mode="IN" />
+			<parameter property="error_code" jdbcType="DECIMAL" javaType="java.lang.Integer" mode="OUT" />
+			<parameter property="error_msg" jdbcType="VARCHAR" javaType="java.lang.String" mode="OUT" />
+			<parameter property="result" jdbcType="ORACLECURSOR" javaType="java.sql.ResultSet" mode="OUT" />
+		</parameterMap>
+			<procedure id="findincomeStatementList"  parameterMap="IncomStatementParam" resultMap="incomeStatementResult">
+			 <![CDATA[
+			{call INCOME_STATEMENT(?,?,?,?,?)}
+			]]>
+			</procedure>
+
+    </sqlMap>
+

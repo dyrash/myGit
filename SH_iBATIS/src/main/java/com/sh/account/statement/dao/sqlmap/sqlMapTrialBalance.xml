@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQLMap 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="trialBalance">
+
+	<typeAlias alias="trialBalanceBean"
+		type="com.sh.account.statement.to.TrialBalanceBean" />
+
+	<resultMap id="trialBalanceResult" class="trialBalanceBean">
+
+		<result property="accountName" column="ACCOUNT_NAME" />
+		<result property="leftDebtorBalance" column="LEFT_DEBTOR_BALANCE" />
+		<result property="leftDebtorSum" column="LEFT_DEBTOR_SUM" />
+		<result property="rightCreditSum" column="RIGHT_CREDITS_SUM" />
+		<result property="rightCreditBalance" column="RIGHT_CREDITS_BALANCE" />
+
+
+	</resultMap>
+
+	<parameterMap class="java.util.HashMap" id="trialBalanceParam">
+	
+		<parameter property="toDate" mode="IN"
+			javaType="java.lang.String" jdbcType="VARCHAR" />
+
+		<parameter property="ERROR_CODE" mode="OUT"
+			javaType="java.lang.Integer" jdbcType="DECIMAL" />
+
+		<parameter property="ERROR_MSG" mode="OUT"
+			javaType="java.lang.String" jdbcType="VARCHAR" />
+
+		<parameter property="RESULT" mode="OUT"
+			javaType="java.sql.ResultSet" jdbcType="ORACLECURSOR" />
+
+	</parameterMap>
+
+
+	<procedure id="findTrialBalanceList"
+		resultMap="trialBalanceResult" parameterMap="trialBalanceParam">
+
+		<![CDATA[
+			 
+				{call P_Total_Balance_OPEN(?,?,?,?)}
+			
+			]]>
+	</procedure>
+
+
+
+</sqlMap>

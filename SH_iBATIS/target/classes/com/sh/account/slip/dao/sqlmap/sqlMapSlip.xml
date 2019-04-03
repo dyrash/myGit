@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQLMap 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+    
+<sqlMap namespace="slip">
+    <typeAlias alias="slipBean" type="com.sh.account.slip.to.SlipBean"/>
+    <resultMap id="slipResult" class="slipBean" >
+        <result property="slipNo" column="SLIP_NO"/>
+        <result property="accountPeriodNo" column="ACCOUNT_PERIOD_NO"/>
+        <result property="deptCode" column="DEPT_CODE"/>
+        <result property="slipType" column="SLIP_TYPE"/>
+        <result property="expenseReport" column="EXPENSE_REPORT"/>
+        <result property="authorizationStatus" column="AUTHORIZATION_STATUS"/>
+        <result property="reportingEmpCode" column="REPORTING_EMP_CODE"/>
+        <result property="reportingDate" column="REPORTING_DATE"/>
+        <result property="reportingTime" column="REPORTING_TIME"/>
+        <result property="approvalEmpCode" column="APPROVAL_EMP_CODE"/>
+        <result property="approvalDate" column="APPROVAL_DATE"/>
+        <result property="approvalTime" column="APPROVAL_TIME"/>
+        <result property="modifyingEmpCode" column="MODIFYING_EMP_CODE"/>
+        <result property="modifyingDate" column="MODIFYING_DATE"/>
+        <result property="modifyingTime" column="MODIFYING_TIME"/>
+        <result property="accountDifference" column="ACCOUNT_DIFFERENCE"/>
+        <result property="slipDescription" column="SLIP_DESCRIPTION"/>
+        <result property="slipStatus" column="SLIP_STATUS" />
+        <result property="journalList" column="SLIP_NO" select="journal.selectJournalList"/>
+    </resultMap>
+	<cacheModel id="accountCache" type="FIFO" readOnly="true" serialize="false">
+   <flushInterval hours="2"/>
+   <flushOnExecute  statement="slip.insertSlip"/>
+   <flushOnExecute  statement="slip.updateSlip"/>
+   <flushOnExecute  statement="slip.deleteSlip"/>
+   <property name="size" value="10"/>
+</cacheModel>
+  
+    <!-- 
+    
+    <resultMap id="slipPDFResult" class="slipBean" >
+		<result property="slipNo" column="SLIP_NO"/>
+		<result property="writeDate" column="WRITE_DATE"/>
+		<result property="writeEmpCode" column="WRITE_EMP_CODE"/>
+		<result property="accountName" column="ACCOUNT_NAME"/>
+		<result property="customerName" column="CUSTOMER_NAME"/>
+		<result property="descName" column="DESC_NAME"/>
+		<result property="creditPrice" column="CREDIT_PRICE" nullValue="0"/>
+		<result property="debitPrice" column="DEBIT_PRICE" nullValue="0"/> nullValue="0" int형은 null 처리 안됨  숫자 0으로 처리 해야됨 
+	</resultMap> -->
+    
+	
+	<!--해당 날짜 전표 구해오는 것!  -->
+	
+	 <select id="selectSlipDataList" remapResults="true" resultMap="slipResult" parameterClass="java.util.HashMap">
+    <![CDATA[
+
+	SELECT * FROM SLIP 
+	WHERE REPORTING_DATE BETWEEN TO_DATE(#slipDate1#,'yyyy-mm-dd') AND TO_DATE(#slipDate2#,'yyyy-mm-dd') 
+    
+    ]]>
+    </select>
+
+
+	<!-- PDF 출력  -->
+	
+<!-- 	<select id="selectPDFSlip" resultMap="slipPDFResult" parameterClass="string">
+    <![CDATA[
+    SELECT
+    	S.SLIP_NO
+     	, S.WRITE_DATE
+     	, S.WRITE_EMP_CODE 
+     	,J.ACCOUNT_NAME
+     	, J.CUSTOMER_NAME
+     	, J.DESC_NAME 
+     	,CASE j.BALANCE_DIVISION 
+           WHEN '대변' 
+           THEN j.PRICE*1 
+           ELSE NULL 
+      	   END AS CREDIT_PRICE 
+     	,CASE j.BALANCE_DIVISION 
+           WHEN '차변' 
+           THEN j.PRICE*1 
+           ELSE NULL 
+           END AS DEBIT_PRICE 
+  	FROM 
+  		SLIP s
+     	, JOURNAL j 
+ 	WHERE 
+ 		s.SLIP_NO=j.SLIP_NO 
+	AND 
+		s.SLIP_NO= #slipNo# 
+    ]]>
+    </select> -->
+    
+    
+    <delete id="deleteSlip" parameterClass="slipBean">
+    <![CDATA[
+	DELETE FROM SLIP WHERE SLIP_NO=#slipNo#
+    ]]>
+    </delete>
+    
+    
+     <update id="updateSlip" parameterClass="slipBean">
+    <![CDATA[
+    
+    UPDATE SLIP SET 
+	REPORTING_EMP_CODE=#reportingEmpCode#, APPROVAL_EMP_CODE=#approvalEmpCode#, EXPENSE_REPORT=#expenseReport#, SLIP_TYPE=#slipType#, 
+	ACCOUNT_DIFFERENCE=#accountDifference#, SLIP_STATUS=#slipStatus#, APPROVAL_DATE=#approvalDate#, 
+	REPORTING_DATE=#reportingDate# WHERE SLIP_NO=#slipNo#
+    
+    ]]>
+    </update>
+    
+    
+    <insert id="insertSlip" parameterClass="slipBean">
+    <![CDATA[
+   		INSERT INTO SLIP(SLIP_NO, ACCOUNT_PERIOD_NO, DEPT_CODE, REPORTING_EMP_CODE, APPROVAL_EMP_CODE, EXPENSE_REPORT, 
+		SLIP_TYPE, ACCOUNT_DIFFERENCE, APPROVAL_SEQ,SLIP_STATUS, APPROVAL_DATE, 
+		SLIP_SEQ, REPORTING_DATE ) 
+		VALUES(
+		#slipNo#,#accountPeriodNo#,#deptCode#,#reportingEmpCode#,
+		#approvalEmpCode#,#expenseReport#,#slipType#,#accountDifference#,APPROVAL_NO_SEQ.NEXTVAL,
+		#slipStatus#,#approvalDate#,SLIP_NO_SEQ.NEXTVAL,#reportingDate#
+		) 
+    ]]>
+    </insert>
+    
+    
+    
+    <select id="selectDisApprovalSlipList" remapResults="true" resultMap="slipResult">
+    <![CDATA[
+ 	SELECT * FROM SLIP WHERE SLIP_STATUS='미결' OR APPROVAL_DATE IS NULL ORDER BY REPORTING_DATE
+    ]]>
+    </select>
+    
+
+
+	 <select id="selectRangedSlipList" remapResults="true" resultMap="slipResult" parameterClass="Map">
+    <![CDATA[
+    SELECT * FROM SLIP WHERE REPORTING_DATE BETWEEN #fromDate# AND #toDate# 
+	AND SLIP_STATUS = '승인' ORDER BY REPORTING_DATE 
+    ]]>
+    </select>
+    
+    
+</sqlMap>

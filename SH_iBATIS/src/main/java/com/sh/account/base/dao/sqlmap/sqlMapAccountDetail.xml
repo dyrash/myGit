@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQLMap 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="accountDetail">
+    <typeAlias alias="accountDetailBean" type="com.sh.account.base.to.AccountDetailBean"/>
+    
+    <resultMap id="accountDetailResult" class="accountDetailBean" >
+    
+        <result property="accountControlCode" column="ACCOUNT_CONTROL_CODE"/>
+        <result property="accountControlName" column="ACCOUNT_CONTROL_NAME"/>
+        <result property="accountType" column="ACCOUNT_TYPE"/>        
+
+    </resultMap>
+    <select id="findControlItemList" resultMap="accountDetailResult" parameterClass="string">
+    <![CDATA[
+
+    SELECT
+    	*
+    FROM
+    	ACC_DETAIL
+    ]]>
+    </select>
+</sqlMap>

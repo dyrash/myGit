@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQLMap 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+    
+    <sqlMap namespace="detailCode">
+    	<typeAlias alias="detailCodeBean" type="com.sh.base.to.DetailCodeBean"/>
+    	<resultMap class="detailCodeBean" id="detailCodeResult">
+    		<result property="divisionCode" column="DIVISION_CODE_NO"/>
+    		<result property="codeNo" column="DETAIL_CODE"/>
+    		<result property="codeName" column="DETAIL_CODE_NAME"/>
+    		<result property="codeUseCheck" column="CODE_USE_CHECK"/>
+    		<result property="divisionCodeNo" column="CODE_USE_CHECK"/>
+    		<result property="detailCode" column="DETAIL_CODE"/>
+    		<result property="detailCodeName" column="DETAIL_CODE_NAME"/>
+    	
+    	</resultMap>
+    	
+    	<select id="selectDetailCodeList" resultMap="detailCodeResult" parameterClass="string">
+    	
+    	<![CDATA[
+    	SELECT DIVISION_CODE_NO,DETAIL_CODE,DETAIL_CODE_NAME,CODE_USE_CHECK 
+    	FROM CODE_DETAIL WHERE DIVISION_CODE_NO= #divisionCode#
+    	
+    	]]>    	
+    	</select>
+    	
+    	<insert id="insertDetailCode" parameterClass="detailCodeBean">
+    	<![CDATA[
+   		INSERT INTO CODE_DETAIL VALUES(
+   			#divisionCode#,
+    		#codeNo#,
+    		#codeName#,
+    		#codeUseCheck#,
+    		##
+    		)
+   		
+    	]]>
+   		</insert>
+    
+   		<update id="updateDetailCode" parameterClass="detailCodeBean">
+    	<![CDATA[
+   		
+		UPDATE CODE_DETAIL 
+		       SET DETAIL_CODE_NAME = #detailCodeName#
+		     , CODE_USE_CHECK=#codeUseCheck# 
+		 WHERE DIVISION_CODE_NO = #divisionCode# 
+		       AND DETAIL_CODE = #codeNo#
+    	
+    	]]>
+    	</update>
+    
+   		<delete id="deleteDetailCode" parameterClass="string">
+    	<![CDATA[
+		DELETE FROM CODE_DETAIL WHERE DIVISION_CODE_NO = #divisionCode#	
+    	]]>
+    	</delete>
+    
+    </sqlMap>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQLMap 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="employee">
+	<typeAlias alias="employeeBean"
+		type="com.sh.hr.to.EmployeeBean" />
+
+	<resultMap class="employeeBean" id="employeeResult">
+
+		<result property="empCode" column="EMP_CODE" />
+		<result property="empName" column="EMP_NAME" />
+		<result property="companyCode" column="COMPANY_CODE" />
+		<result property="workplaceCode" column="WORKPLACE_CODE" />
+		<result property="deptCode" column="DEPT_CODE" />
+		<result property="positionCode" column="POSITION_CODE" />
+		<result property="socialSecurityNumber" column="SOCIAL_SECURITY_NUMBER" />
+		<result property="birthDate" column="BIRTH_DATE" />
+		<result property="gender" column="GENDER" />
+		<result property="email" column="EMAIL" />
+		<result property="phoneNumber" column="PHONE_NUMBER" />
+		<result property="image" column="IMAGE" />
+		<result property="userPw" column="USER_PW" />
+		<result property="zipCode" column="ZIP_CODE" />
+		<result property="basicAddress" column="BASIC_ADDRESS" />
+		<result property="detailAddress" column="DETAIL_ADDRESS" />
+		<result property="levelOfEducation" column="LEVEL_OF_EDUCATION" />
+		<result property="deptName" column="DEPT_NAME" />
+		<result property="positionName" column="DETAIL_CODE_NAME" />
+		
+
+	</resultMap>
+	
+<!-- resultMap="employeeResult" -->
+
+	<select id="selectCompanyStaff"   resultMap="employeeResult"  parameterClass="string">
+	<![CDATA[
+	
+		SELECT EMP_CODE
+		     ,EMP_NAME
+		     ,COMPANY_CODE
+		     ,WORKPLACE_CODE
+		     ,DEPT_CODE
+		     ,POSITION_CODE
+		     ,SOCIAL_SECURITY_NUMBER
+		     ,BIRTH_DATE
+		     ,GENDER
+		     ,EMAIL
+		     ,PHONE_NUMBER
+		     ,IMAGE
+		     ,USER_PW
+		     ,ZIP_CODE
+		     ,BASIC_ADDRESS
+		     ,DETAIL_ADDRESS
+		     ,LEVEL_OF_EDUCATION
+		     ,USER_OR_NOT
+		     ,DEPT_NAME
+		     ,DETAIL_CODE_NAME 
+		  FROM EMPLOYEE E
+		     , CODE_DETAIL CD 
+		 WHERE E.POSITION_CODE=CD.DETAIL_CODE 
+		       AND E.EMP_CODE=#empCode#
+	
+	]]>
+	</select>
+
+
+<!-- resultMap="employeeResult" -->
+	<select id="selectEmployeeList"  resultClass="employeeBean" parameterClass="string">
+	<![CDATA[
+	SELECT EMP_CODE as empCode
+     ,EMP_NAME as empName
+     ,COMPANY_CODE as companyCode
+     ,WORKPLACE_CODE as workplaceCode
+     ,DEPT_CODE as deptCode
+     ,POSITION_CODE as positionCode
+     ,SOCIAL_SECURITY_NUMBER as socialSecurityNumber
+     ,BIRTH_DATE as birthDate
+     ,GENDER
+     ,EMAIL
+     ,PHONE_NUMBER as phoneNumber
+     ,IMAGE 
+     ,USER_PW as userPw
+     ,ZIP_CODE as zipCode
+     ,BASIC_ADDRESS as basicAddress
+     ,DETAIL_ADDRESS as detailAddress
+     ,LEVEL_OF_EDUCATION as levelOfEducation
+     ,USER_OR_NOT as userOrNot
+     ,DEPT_NAME    as deptName
+  FROM EMPLOYEE 
+ WHERE DEPT_CODE = #deptCode#
+	]]>
+
+
+	</select>
+
+	<update id="updateEmployeeInfo" parameterClass="employeeBean">
+	<![CDATA[
+	 UPDATE EMPLOYEE SET GENDER =#gender#, PHONE_NUMBER= #phoneNumber#, ZIP_CODE = #zipCode#, 
+	 BASIC_ADDRESS = #basicAddress#, DETAIL_ADDRESS = #detailAddress#, EMAIL = #email#, IMAGE = #image#, 
+	 SOCIAL_SECURITY_NUMBER = #socialSecurityNumber# WHERE EMP_CODE = #empCode#
+	           
+	
+	]]>
+
+	</update>
+
+	<update id="updateEmployee" parameterClass="employeeBean">
+        <![CDATA[
+	UPDATE EMPLOYEE SET DEPT_CODE=#deptCode# WHERE EMP_CODE=#empCode#
+       ]]>
+	</update>
+
+
+	<delete id="deleteEmployee" parameterClass="string">
+    <![CDATA[
+	DELETE FROM EMPLOYEE WHERE EMP_CODE=#empCode#
+    ]]>
+	</delete>
+
+	<insert id="insertEmployee" parameterClass="employeeBean">
+    <![CDATA[
+   	INSERT INTO EMPLOYEE 
+       (
+           EMP_CODE
+         , EMP_NAME
+         , USER_PW
+         , POSITION_CODE
+         , DEPT_CODE
+         , EMAIL
+         , GENDER
+         , SOCIAL_SECURITY_NUMBER
+         , PHONE_NUMBER
+         , BIRTH_DATE
+         , LEVEL_OF_EDUCATION
+         , ZIP_CODE
+         , BASIC_ADDRESS
+         , DETAIL_ADDRESS
+         , IMAGE
+         , COMPANY_CODE
+         , WORKPLACE_CODE
+       ) 
+       VALUES
+       (
+          #empCode#
+         ,#empName#
+         ,#userPw#
+         ,#positionCode#
+         ,#deptCode#
+         ,#email#
+         ,#gender#
+         ,#socialSecurityNumber#
+         ,#phoneNumber#
+         ,#birthDate#
+         ,#levelOfEducation#
+         ,#zipCode#
+         ,#basicAddress#
+         ,#detailAddress#
+         ,#image#
+         ,#companyCode#
+         ,#workplaceCode#
+       )
+
+    ]]>
+	</insert>
+
+<!-- resultMap="employeeResult" -->
+	<select id="selectEmployee"  resultClass="employeeBean"
+		parameterClass="string">
+    <![CDATA[
+	SELECT EMP_CODE as empCode
+     ,EMP_NAME as empName
+     ,USER_PW as userPw
+     ,DEPT_CODE  as deptCode
+  FROM EMPLOYEE 
+ WHERE EMP_CODE=#empCode#
+    ]]>
+	</select>
+
+</sqlMap> 
+ 
