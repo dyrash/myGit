@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="45">
+        <context type="script" name="" line="11"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="44">
+        <context type="script" name="" line="11"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="45">
+        <context type="script" name="" line="12"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="44">
+        <context type="script" name="" line="12"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="45">
+        <context type="script" name="" line="14"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="44">
+        <context type="script" name="" line="15"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="45">
+        <context type="script" name="" line="63"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="44">
+        <context type="script" name="" line="63"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="45">
+        <context type="script" name="" line="64"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="44">
+        <context type="script" name="" line="64"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="45">
+        <context type="script" name="" line="66"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="44">
+        <context type="script" name="" line="67"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="45">
+        <context type="script" name="" line="67"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="44">
+        <context type="script" name="" line="68"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="45">
+        <context type="script" name="" line="68"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="44">
+        <context type="script" name="" line="69"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="45">
+        <context type="script" name="" line="69"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl" line="44">
+        <context type="script" name="" line="70"/>
+      </context>
+    </location>
+  </item>
+</migration>

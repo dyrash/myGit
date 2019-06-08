@@ -1,0 +1,23 @@
+<button style="margin-top:10px; margin-right:5px; "  class="btn btn-info" (click)="registMrp()">소요량전개</button>
+<ag-grid-angular 
+  #mpsGrid
+  style="width: 1122px; height: 500px; " 
+  class="ag-theme-balham"
+  [rowData]=mpsList
+  [columnDefs]="mpsColumnDefs"
+ 
+  rowSelection="multiple"
+   >
+</ag-grid-angular>
+<table><tr><td>
+<ag-grid-angular 
+  #mrpGrid
+  style="width: 500px; height: 400px; " 
+  class="ag-theme-balham"
+  [rowData]=mrpList
+  [columnDefs]="mrpColumnDefs"
+  
+  rowSelection="multiple"
+   >
+</ag-grid-angular></td><td><button class="btn btn-info"  style="margin-left:5px; margin-right:5px; " (click)="registMrpG()">소요량취합</button></td><td><app-mrp-gathering-view></app-mrp-gathering-view></td></tr></table>
+

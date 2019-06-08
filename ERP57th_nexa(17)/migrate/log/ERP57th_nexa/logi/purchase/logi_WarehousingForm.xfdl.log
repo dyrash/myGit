@@ -1,0 +1,799 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'background:transparent' to 'background=transparent']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'border:2 solid #333333ff' to 'border=2px solid rgba(51,51,51,1)']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'color:black' to 'color=black']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:25 Dotum,HY견고딕' to 'font=25pt Dotum,HY견고딕']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'GroupBox' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,13,bold' to 'font=bold 13pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="8"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="7"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Tab' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="8"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="7"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="13"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="12"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="13"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="12"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="14"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="13"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:새굴림,11' to 'font=11pt 새굴림']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="14"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="13"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Grid' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="14"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="13"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="32"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="31"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="32"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="31"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="33"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="32"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="33"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="32"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="34"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="33"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="34"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="33"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="35"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="34"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="35"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="34"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="36"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="35"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="36"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="35"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="37"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="36"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="37"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="36"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="38"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="37"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="38"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="37"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="39"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="38"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="39"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="38"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="42"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="41"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="42"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="41"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="43"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="42"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="43"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="42"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="44"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="43"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="44"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="43"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="45"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="44"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="45"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="44"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="46"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="45"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="46"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="45"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="47"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="46"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="47"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="46"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="48"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="47"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="48"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="47"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="49"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="48"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="49"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="48"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="54"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="53"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="54"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="53"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="55"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="54"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="55"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="54"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="56"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="55"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="56"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="55"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="57"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="56"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="71"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="70"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="71"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="70"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="72"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="71"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="72"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="71"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="73"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="72"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="73"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="72"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="74"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="73"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="74"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="73"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="77"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="76"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="77"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="76"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="78"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="77"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="78"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="77"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="79"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="78"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="79"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="78"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="80"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="79"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="80"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="79"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="85"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="84"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="99"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="98"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="99"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="98"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="100"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="99"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="100"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="99"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="101"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="100"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="101"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="100"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="102"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="101"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="102"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="101"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="105"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="104"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="105"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="104"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="106"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="105"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="106"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="105"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="107"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="106"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="107"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="106"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="108"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="107"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="108"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="107"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl" line="188">
+        <context type="script" name="" line="117"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl" line="187">
+        <context type="script" name="" line="118"/>
+      </context>
+    </location>
+  </item>
+</migration>

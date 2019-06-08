@@ -1,0 +1,127 @@
+
+<!-- $("#dateRangePicker").datepicker({
+   dateFormat: "yy-mm-dd" // inputbox 에 '2011/04/29' 로표시
+  ,changeMonth: true // 월선택 select box 표시 (기본은 false)
+  ,changeYear: true  // 년선택 selectbox 표시 (기본은 false)
+  ,monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월']
+  ,monthNamesShort: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월']
+  ,dayNames: ['일', '월', '화', '수', '목', '금', '토']
+  ,dayNamesShort: ['일', '월', '화', '수', '목', '금', '토']
+  ,dayNamesMin: ['일', '월', '화', '수', '목', '금', '토']
+  ,showMonthAfterYear: true
+  ,yearSuffix: '년'
+  ,defaultDate : new Date(1985,01,-1) // 달력 시작날짜 지정 1985/01/01
+ )}; -->
+
+ <div id='slip'>
+  <div class='slipJournal'>
+      <div align=center id='slipStatic'>
+         <label style='font-size:24px; font-weight:bold;'>전표입력</label>
+      </div>
+  
+      <div align=right>
+          <mat-form-field style="width:100px; margin-right:10px;">
+              <mat-label>slip status</mat-label>
+              <select matNativeControl required [(ngModel)]=status>
+                <option value="미결">미결</option>
+                <option value="승인">승인</option>
+              </select>
+            </mat-form-field>
+  <!-- [min]="2019329" -->
+          <mat-form-field style="width:150px;">
+              <input matInput  [(ngModel)]=model [matDatepicker]="fromDate" placeholder="Choose a date" >
+              <mat-datepicker-toggle matSuffix [for]="fromDate"></mat-datepicker-toggle>
+              <mat-datepicker #fromDate></mat-datepicker>
+            </mat-form-field>
+        <label id='connect'> ~ </label>
+   
+        <mat-form-field style="width:150px;">
+            <input matInput [(ngModel)]=model2 [matDatepicker]="endDate" placeholder="Choose a date">   
+            <!--input 태그 안에 있던거 (dateInput)="addEvent('input',$event) -->
+            <mat-datepicker-toggle matSuffix [for]="endDate"></mat-datepicker-toggle>
+            <mat-datepicker #endDate></mat-datepicker>
+          </mat-form-field>
+  
+      <button id='slipSearchBtn' (click)="slipSearchBtn_click(model,model2)">조회</button>
+      <button id='slipAddBtn' (click)="createSequence('SLIP_SEQ')">추가</button>
+      <button id='slipDeleteBtn' (click)="slipDeleteBtn_click()">삭제</button>
+      <button id='slipBatchBtn'  (click)="slipBatchBtn_click()">일괄저장</button>
+    </div>
+       <!-- {{selectedRows}} -->
+     <!-- <span id="selectedRows"></span> -->
+      <div align=center style='margin-bottom:20px'>
+          <ag-grid-angular 
+            #slipListGrid
+            style="width: 900px; height: 200px;" 
+            class="ag-theme-balham"
+            [rowData]="slipList"
+            [columnDefs]="columnDefs"
+            [defaultColDef]="defaultColDef"
+            [components]="components"
+            [rowSelection]="rowSelection"
+            (selectionChanged)="slipGrid_onSelectionChanged($event)"
+            (gridReady)="onGridReady($event)"
+            (cellValueChanged)="slipGrid_cellValueChanged($event)"
+          >
+          <!-- [rowMultiSelectWithClick]="true" -->
+          <!-- (selectionChanged)="slipGrid_onSelectionChanged($event)" -->
+          <!-- (cellClicked)="slipGrid_cellClick($event)" -->
+          <!-- (selectionChanged)="onSelectionChanged($event)" -->
+          </ag-grid-angular>
+      </div>
+          <div align=right>
+            <span style="font-size:20px">대차차액</span>
+              <mat-form-field id="balanceDifference" style="width:160px; margin-right:20px;" disabled>
+                  <input matInput disabled>
+              </mat-form-field>
+            <button id='journalAddBtn' (click)="createSequence('JOURNAL_SEQ')">추가</button>
+            <button id='journalDeleteBtn'  (click)="journalDeleteBtn_click()">삭제</button>
+          </div>
+      <div align=center id='journalStatic'>
+        <label style='font-size:24px; font-weight:bold;'>분개입력</label>
+      </div>
+  
+      <div align=center>
+          <ag-grid-angular 
+           #journalListGrid
+           id=journalListGrid
+           style="width: 900px; height: 200px;" 
+           class="ag-theme-balham"
+           [rowData]="journalList"
+           [columnDefs]="columnDefss"
+           [defaultColDef]="defaultColDef"
+           [rowSelection]="rowSelection"
+           (gridReady)="onGridReady($event)"
+           (rowClicked)="journalGrid_rowClicked($event)"
+           (cellValueChanged)="journalGrid_cellValueChanged($event)"
+           >
+          </ag-grid-angular>
+      </div>
+  
+  </div>
+  
+  <div class='journalDetail'>
+      <div align=center id='journalDetailStatic'>
+          <label style='font-size:24px; font-weight:bold;'>분개상세</label>
+       </div>
+  
+       <div id=journalDetailGridDiv style="margin-left:10px; visibility:hidden" >
+          <ag-grid-angular 
+          #journalDetailListGrid
+          id="journalDetailGrid"
+          style="width: 250px; height: 500px;" 
+          class="ag-theme-balham"
+          [rowData]="journalDetailList"
+          [defaultColDef]="defaultColDef"
+          [columnDefs]="columnDefsss"
+          [rowSelection]="rowSelection"
+          (gridReady)="onGridReady($event)"
+          (cellValueChanged)="journalDetailGrid_cellValueChanged($event)"
+          >
+         </ag-grid-angular>
+       </div>
+  
+  </div>
+  
+  </div>
+  

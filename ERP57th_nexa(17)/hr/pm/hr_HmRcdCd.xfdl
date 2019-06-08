@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.0">
+  <Form id="hr_HmRcdCd" width="1185" height="785" titletext="New Form" background="rgba(235,233,228,1)" color="rgba(70,70,61,1)">
+    <Layouts>
+      <Layout/>
+    </Layouts>
+    <Script type="xscript5.0"><![CDATA[]]></Script>
+  </Form>
+</FDL>

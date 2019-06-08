@@ -1,0 +1,107 @@
+
+  <p></p>
+<span style="font: oblique bold 1.5em/1em Georgia, serif ; color:	#000080;">
+  [ 연장/심야 승인관리 화면 ]
+  </span>
+  <p></p>
+  
+  <!-- <mat-drawer-container class="example-container" >
+      <mat-drawer>I'm a drawer</mat-drawer>
+      <mat-drawer-content> -->
+  <div>
+  
+      <label>기준일  : </label>
+  <mat-form-field>
+    <input matInput [matDatepicker]="picker" placeholder="날짜를 선택해주세요!" [(ngModel)]="basicDate">
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+  </div>
+  
+  <label>부서  : </label>
+  <mat-form-field>
+      <mat-select placeholder="부서선택" [(ngModel)]="deptCode">
+        <mat-option>-- None --</mat-option>
+        <mat-option value="DEP000">경영부</mat-option>
+        <mat-option value="DEP001">회계부</mat-option>
+        <mat-option value="DEP007">인사부</mat-option>  
+        <mat-option value="DEP010">물류부</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <div>
+    <label>승인구분  : </label>
+    <mat-form-field>
+        <mat-select placeholder="승인구분" [(ngModel)]="approvalStatus">
+          <mat-option>-- None --</mat-option>
+          <mat-option value="Y">승인</mat-option>
+          <mat-option value="N">미승인</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button class="btn btn-primary" (click)="findStatment(basicDate)">조회</button>
+      </div>
+  
+      <button style="margin-bottom:10px; margin-left:5px; margin-right:10px;" class="btn btn-info" (click)="checkApproval()">선택승인변경</button>
+      <button style="margin-bottom:10px; margin-left:5px; margin-right:10px;" class="btn btn-warning" (click)="getSelectedRows()">선택</button>
+      <button style="margin-bottom:10px; margin-left:600px; margin-right:10px;" class="btn btn-danger" (click)="checkdelete()">선택삭제</button>
+      <button style="margin-bottom:10px; margin-left:5px; margin-right:10px;" class="btn btn-success" (click)="savebtn()">저장</button>
+  
+    <!-- </mat-drawer-content>
+  </mat-drawer-container> -->
+  
+  
+  <ag-grid-angular 
+  #statmentGrid
+  style="width: 1000px; height: 500px; " 
+  class="ag-theme-balham"
+  [rowData]=statmentArray.overNightReportList
+  [columnDefs]="columnDefs"
+  >
+  </ag-grid-angular>
+  
+  
+  
+  
+  <!--
+  <div>
+  <label>기준일: </label>
+  <mat-form-field color="accent">
+    <mat-label>시작일</mat-label>
+    <input matInput [matDatepicker]="picker1" [(ngModel)]="model">
+    <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+    <mat-datepicker #picker1></mat-datepicker>
+  </mat-form-field>
+  <div>{{ model1 | date:'yyyyMMdd' }}</div>
+  <mat-form-field color="accent">
+    <mat-label>종료일</mat-label>
+    <input matInput [matDatepicker]="picker2" [(ngModel)]="model2">  
+    <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+    <mat-datepicker #picker2 color="primary"></mat-datepicker>
+  </mat-form-field>
+  <div>{{ model2 | date:'yyyyMMdd' }}</div>
+  
+  <button (click)="findStatment(model,model2)">조회</button>
+  </div> 
+  
+  
+  <mat-drawer-container class="example-container" [hasBackdrop]="hasBackdrop.value">
+    <mat-drawer #drawer [mode]="mode.value">I'm a drawer</mat-drawer>
+    <mat-drawer-content>
+      <mat-form-field>
+        <mat-label>Sidenav mode</mat-label>
+        <mat-select #mode value="side">
+          <mat-option value="side">Side</mat-option>
+          <mat-option value="over">Over</mat-option>
+          <mat-option value="push">Push</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Has backdrop</mat-label>
+        <mat-select #hasBackdrop>
+          <mat-option>Unset</mat-option>
+          <mat-option [value]="true">True</mat-option>
+          <mat-option [value]="false">False</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button mat-raised-button (click)="drawer.toggle()">Toggle drawer</button>
+    </mat-drawer-content>
+  </mat-drawer-container> -->

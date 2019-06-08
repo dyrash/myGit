@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENV version="2.1">
+  <Environment tracemode="none" themeid="theme::default_CUSTOM">
+    <ScreenDefinition>
+      <Screen id="screen_init" type="desktop" sizeorientation="" specifiedos="" specifiedlocale="" formlayoutwidth="1440" formlayoutheight="900"/>
+    </ScreenDefinition>
+    <Variables/>
+    <Cookies/>
+  </Environment>
+</ENV>

@@ -1,0 +1,47 @@
+
+
+
+<!-- <mat-drawer-container class="example-container" style="float: left;">
+  <mat-drawer>I'm a drawer</mat-drawer>
+  <mat-drawer-content> -->
+
+    <h1 style="margin-top:30px; margin-bottom:30px;">
+      합계 잔액 시산표
+    </h1>
+    <form style="margin-top:30px; margin-bottom:30px; " class="form-inline" >
+      <div class="form-group" >
+        <div class="input-group" >
+         
+          <input class="form-control" placeholder="조회할 날짜 선택하세요~"
+                 name="dp" [(ngModel)]="model" ngbDatepicker #d="ngbDatepicker">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary calendar" (click)="d.toggle()" type="button"></button>
+          </div>
+        </div>
+        <button style="margin-left:30px;" class="btn btn-primary" (click)="findStatment()">조회</button>
+    
+      </div>
+    </form>
+    
+    
+    <!-- </mat-drawer-content>
+    </mat-drawer-container> -->
+    
+    
+    <ag-grid-angular 
+      #statmentGrid
+      style="width: 1000px; height: 500px; " 
+      class="ag-theme-balham"
+      [rowData]=statmentArray.totalTrialBalanceList
+      [columnDefs]="columnDefs"
+       >
+    </ag-grid-angular> 
+    
+    
+    
+    <!-- <button (click)="getSelectedRows()">Get Selected Rows</button>  //text-align: center;
+    <button (click)="addRows()">addRows</button>
+    <button (click)="editRow()">editRows</button>
+    <button (click)="deleteRow()">deleteRow</button>
+    <button (click)="getEditedData()">sendEditedData</button> -->
+    

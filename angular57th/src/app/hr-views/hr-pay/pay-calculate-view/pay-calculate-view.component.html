@@ -1,0 +1,85 @@
+<table><tr><td>
+<mat-form-field color="accent">
+  <input matInput [matDatepicker]="picker1">
+  <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+  <mat-datepicker #picker1></mat-datepicker>
+</mat-form-field></td><td>
+<div class="container">
+  <!-- #loginForm="ngForm" -->
+  <div class="jumbotron">
+    <div class="form-group">
+      <div class="input-group mb-3">
+        <input type="text" width="300" class="form-control" name="payDay" placeholder="지급일자" [(ngModel)]="payDay" #pCode="ngModel"
+          aria-describedby="button-addon1">
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button" id="button-addon1" (click)="findPayDay()" data-toggle="modal"
+            data-target="#businessPlaceCodeModal">Search</button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="businessPlaceCodeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">지급일자</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <ag-grid-angular
+                  style="width: auto; height: 300px;" 
+                  class="ag-theme-balham"
+                  [rowData]="payDayList" 
+                  [columnDefs]="payDayColumnDefs"
+                  [rowSelection]="rowSelection"
+                  (gridReady)="onGridReady($event)"
+                  (rowClicked)="payDayRowClicked($event)"
+                >
+                </ag-grid-angular>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+  </div>
+</div>
+</td></tr></table>
+<ag-grid-angular 
+  #paycalculateGrid
+  style="width: 500px; height: 200px; " 
+  class="ag-theme-balham"
+  [rowData]=dataArray.employeeList
+  [columnDefs]="paycalculateColumnDefs"
+  [getRowStyle]="getRowStyle"
+  rowSelection="multiple"
+   >
+</ag-grid-angular>
+<table><tr><td>
+<ag-grid-angular 
+  #payGrid
+  style="width: 500px; height: 300px; " 
+  class="ag-theme-balham"
+  [rowData]=salaryInputList
+  [columnDefs]="salaryInputColumnDefs"
+  [getRowStyle]="getRowStyle"
+  [rowSelection]="rowSelection"
+  (gridReady)="onGridReady($event)"
+  (rowClicked)="payGridClicked($event)"
+   >
+</ag-grid-angular></td><td>
+<ag-grid-angular 
+  #paydeductionGrid
+  style="width: 500px; height: 300px; " 
+  class="ag-theme-balham"
+  [rowData]=paydeductionList
+  [columnDefs]="paydeductionColumnDefs"
+  [getRowStyle]="getRowStyle"
+  rowSelection="multiple"
+   >
+</ag-grid-angular></td></tr></table>
+<button class="btn btn-lg btn-block btn-success" (click)="payCalculate()">급여계산</button>

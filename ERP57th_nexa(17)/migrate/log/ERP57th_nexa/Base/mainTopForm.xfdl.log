@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="18"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="17"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'color:transparent' to 'color=transparent']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="18"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="17"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:돋움,11,bold' to 'font=bold 11pt 돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="18"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="17"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Grid' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="18"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="17"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'align:center middle' to 'textAlign=center']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="39"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="38"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'align:center middle' to 'verticalAlign=middle']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="39"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="38"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['selectbackground' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="39"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="38"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['selectcolor' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="39"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="38"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="39"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="38"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'align:center middle' to 'textAlign=center']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="40"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="39"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'align:center middle' to 'verticalAlign=middle']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="40"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="39"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['selectbackground' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="40"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="39"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['selectcolor' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="40"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="39"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="40"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="39"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'align:center middle' to 'textAlign=center']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="41"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="40"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'align:center middle' to 'verticalAlign=middle']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="41"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="40"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['selectbackground' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="41"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="40"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['selectcolor' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="41"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="40"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="41"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="40"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['itemfont' of 'Combo' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="46"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="45"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:돋움,11.bold' to 'font=11pt 돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="46"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="45"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Combo' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="46"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="45"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['itemfont' of 'Combo' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="47"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="46"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:돋움,11.bold' to 'font=11pt 돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="47"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="46"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Combo' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="47"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="46"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="2088">
+        <context type="script" name="" line="28"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="2087">
+        <context type="script" name="" line="27"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="2088">
+        <context type="script" name="" line="72"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="2087">
+        <context type="script" name="" line="82"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl" line="2088">
+        <context type="script" name="" line="76"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl" line="2087">
+        <context type="script" name="" line="87"/>
+      </context>
+    </location>
+  </item>
+</migration>

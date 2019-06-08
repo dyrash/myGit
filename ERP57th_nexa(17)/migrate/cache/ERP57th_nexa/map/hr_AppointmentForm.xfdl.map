@@ -1,0 +1,525 @@
+﻿{
+	"_map_name": "hr_AppointmentForm.xfdl",
+	"_ctx_name": "this",
+	"Static00": {
+		"prop_type": "value",
+		"value_type": "Static"
+	},
+	"appointment_grid": {
+		"prop_type": "value",
+		"value_type": "Grid"
+	},
+	"personalAppointment_grid": {
+		"prop_type": "value",
+		"value_type": "Grid"
+	},
+	"appointment_grb": {
+		"prop_type": "value",
+		"value_type": "GroupBox"
+	},
+	"addEmployee_btn": {
+		"prop_type": "value",
+		"value_type": "Button"
+	},
+	"addAppointment_btn": {
+		"prop_type": "value",
+		"value_type": "Button"
+	},
+	"registerAppointment_btn": {
+		"prop_type": "value",
+		"value_type": "Button"
+	},
+	"Static01": {
+		"prop_type": "value",
+		"value_type": "Static"
+	},
+	"Static02": {
+		"prop_type": "value",
+		"value_type": "Static"
+	},
+	"Static05": {
+		"prop_type": "value",
+		"value_type": "Static"
+	},
+	"appointmentDivision_edt": {
+		"prop_type": "value",
+		"value_type": "Edit"
+	},
+	"appointmentDirector_edt": {
+		"prop_type": "value",
+		"value_type": "Edit"
+	},
+	"referenceDepartment_edt": {
+		"prop_type": "value",
+		"value_type": "Edit"
+	},
+	"Combo00": {
+		"prop_type": "value",
+		"value_type": "Combo"
+	},
+	"Combo01": {
+		"prop_type": "value",
+		"value_type": "Combo"
+	},
+	"Combo04": {
+		"prop_type": "value",
+		"value_type": "Combo"
+	},
+	"delEmployee_btn": {
+		"prop_type": "value",
+		"value_type": "Button"
+	},
+	"delAppointment_btn": {
+		"prop_type": "value",
+		"value_type": "Button"
+	},
+	"Button00": {
+		"prop_type": "value",
+		"value_type": "Button"
+	},
+	"fromDate_cal": {
+		"prop_type": "value",
+		"value_type": "Calendar"
+	},
+	"toDate_cal": {
+		"prop_type": "value",
+		"value_type": "Calendar"
+	},
+	"Static03": {
+		"prop_type": "value",
+		"value_type": "Static"
+	},
+	"searchAppointment_btn": {
+		"prop_type": "value",
+		"value_type": "Button"
+	},
+	"Button01": {
+		"prop_type": "value",
+		"value_type": "Button"
+	},
+	"Button02": {
+		"prop_type": "value",
+		"value_type": "Button"
+	},
+	"status_combo": {
+		"prop_type": "value",
+		"value_type": "Combo"
+	},
+	"ds_appointment": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"ds_personalAppointment": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"ds_personalAppointmentDetail": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"ds_appointmentDivision": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"ds_dept": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"ds_employee": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"ds_status": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"_parent_ctx": {
+		"_map_name": "hr_AppointmentForm.xfdl",
+		"_ctx_name": "global",
+		"null": {
+			"prop_type": "value",
+			"value_type": "value"
+		},
+		"undefined": {
+			"prop_type": "value",
+			"value_type": "value"
+		},
+		"Infinity": {
+			"prop_type": "value",
+			"value_type": "value"
+		},
+		"NaN": {
+			"prop_type": "value",
+			"value_type": "value"
+		},
+		"decodeURI": {
+			"prop_type": "method",
+			"value_type": "value"
+		},
+		"decodeURIComponent": {
+			"prop_type": "method",
+			"value_type": "value"
+		},
+		"encodeURI": {
+			"prop_type": "method",
+			"value_type": "value"
+		},
+		"encodeURIComponent": {
+			"prop_type": "method",
+			"value_type": "value"
+		},
+		"escape": {
+			"prop_type": "method",
+			"value_type": "value"
+		},
+		"eval": {
+			"prop_type": "method",
+			"value_type": "value"
+		},
+		"isFinite": {
+			"prop_type": "method",
+			"value_type": "value"
+		},
+		"isNaN": {
+			"prop_type": "method",
+			"value_type": "value"
+		},
+		"parseFloat": {
+			"prop_type": "method",
+			"value_type": "Number"
+		},
+		"parseInt": {
+			"prop_type": "method",
+			"value_type": "Number"
+		},
+		"unescape": {
+			"prop_type": "method",
+			"value_type": "value"
+		},
+		"application": {
+			"prop_type": "to_method",
+			"value_type": "application",
+			"new_name": "nexacro.getApplication"
+		},
+		"system": {
+			"prop_type": "get",
+			"value_type": "System"
+		},
+		"trace": {
+			"prop_type": "method",
+			"value_type": ""
+		},
+		"alert": {
+			"prop_type": "method",
+			"value_type": ""
+		},
+		"confirm": {
+			"prop_type": "method",
+			"value_type": ""
+		},
+		"MainFrame": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.MainFrame"
+		},
+		"ChildFrame": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.ChildFrame"
+		},
+		"FrameSet": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.FrameSet"
+		},
+		"VFrameSet": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.VFrameSet"
+		},
+		"HFrameSet": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.HFrameSet"
+		},
+		"TileFrameSet": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.TileFrameSet"
+		},
+		"Form": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Form"
+		},
+		"Band": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Band"
+		},
+		"BindItem": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.BindItem"
+		},
+		"FlashPlayer": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.FlashPlayer"
+		},
+		"Button": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Button"
+		},
+		"Calendar": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Calendar"
+		},
+		"Cell": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Cell"
+		},
+		"Combo": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Combo"
+		},
+		"CheckBox": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.CheckBox"
+		},
+		"Div": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Div"
+		},
+		"Dataset": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.NormalDataset"
+		},
+		"Edit": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Edit"
+		},
+		"FileDownload": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.FileDownload"
+		},
+		"FileUpload": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.FileUpload"
+		},
+		"Grid": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Grid"
+		},
+		"GroupBox": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.GroupBox"
+		},
+		"ImageViewer": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.ImageViewer"
+		},
+		"ExcelImportObject": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.ExcelImportObject"
+		},
+		"ListBox": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.ListBox"
+		},
+		"MaskEdit": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.MaskEdit"
+		},
+		"TextArea": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.TextArea"
+		},
+		"Radio": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Radio"
+		},
+		"Spin": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Spin"
+		},
+		"Static": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Static"
+		},
+		"Chart": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Chart"
+		},
+		"ExcelExportObject": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.ExcelExportObject"
+		},
+		"ExportItem": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.ExportItem"
+		},
+		"Menu": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Menu"
+		},
+		"PopupMenu": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.PopupMenu"
+		},
+		"Tab": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Tab"
+		},
+		"Tabpage": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Tabpage"
+		},
+		"TabComponent": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.TabComponent"
+		},
+		"ProgressBar": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.ProgressBar"
+		},
+		"PopupDiv": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.PopupDiv"
+		},
+		"WebBrowser": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.WebBrowser"
+		},
+		"Sms": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Sms"
+		},
+		"AudioPlayer": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.AudioPlayer"
+		},
+		"GeoLocation": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.GeoLocation"
+		},
+		"Acceleration": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Acceleration"
+		},
+		"Vibrator": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Vibrator"
+		},
+		"Network": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Network"
+		},
+		"Camera": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Camera"
+		},
+		"Contact": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Contact"
+		},
+		"ContactSet": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.ContactSet"
+		},
+		"ContactField": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.ContactField"
+		},
+		"ContactPhoto": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.ContactPhoto"
+		},
+		"ContactAddress": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.ContactAddress"
+		},
+		"ContactOrganization": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.ContactOrganization"
+		},
+		"ImagePicker": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.ImagePicker"
+		},
+		"FileDialog": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.FileDialog"
+		},
+		"VirtualFile": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.VirtualFile"
+		},
+		"SQLConnection": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.SQLConnection"
+		},
+		"SQLStatement": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.SQLStatement"
+		},
+		"AudioRecord": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.AudioRecord"
+		},
+		"Map": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Map"
+		},
+		"ColumnInfo": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.DSColumnInfo"
+		},
+		"Plugin": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Plugin"
+		},
+		"Tray": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.Tray"
+		},
+		"TrayPopupMenu": {
+			"prop_type": "constructor",
+			"value_type": "nexacro.TrayPopupMenu"
+		},
+		"Object": {
+			"prop_type": "constructor",
+			"value_type": "Object"
+		},
+		"Array": {
+			"prop_type": "constructor",
+			"value_type": "Array"
+		},
+		"Boolean": {
+			"prop_type": "constructor",
+			"value_type": "Boolean"
+		},
+		"Date": {
+			"prop_type": "constructor",
+			"value_type": "Date"
+		},
+		"Error": {
+			"prop_type": "constructor",
+			"value_type": "Error"
+		},
+		"Function": {
+			"prop_type": "constructor",
+			"value_type": "Function"
+		},
+		"Math": {
+			"prop_type": "get",
+			"value_type": "Math"
+		},
+		"Number": {
+			"prop_type": "constructor",
+			"value_type": "Number"
+		},
+		"RegExp": {
+			"prop_type": "constructor",
+			"value_type": "RegExp"
+		},
+		"String": {
+			"prop_type": "constructor",
+			"value_type": "String"
+		},
+		"nexacro": {
+			"prop_type": "get",
+			"value_type": "nexacro"
+		}
+	}
+}

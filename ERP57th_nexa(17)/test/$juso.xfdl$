@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.0">
+  <Form id="juso" width="1280" height="720" titletext="New Form" onload="juso_onload">
+    <Layouts>
+      <Layout height="720" mobileorientation="landscape" width="1280">
+        <WebBrowser id="WebBrowser00" taborder="0" left="832" top="545" width="417" height="150" border="0px none"/>
+        <Grid id="Grid00" taborder="1" left="42" top="100" width="1165" height="404" binddataset="ds_roadAddr" autofittype="col" autosizingtype="both" cellsizingtype="both">
+          <Formats>
+            <Format id="default">
+              <Columns>
+                <Column size="80"/>
+                <Column size="80"/>
+                <Column size="80"/>
+                <Column size="80"/>
+                <Column size="10"/>
+                <Column size="10"/>
+                <Column size="10"/>
+                <Column size="10"/>
+                <Column size="10"/>
+              </Columns>
+              <Rows>
+                <Row size="24" band="head"/>
+                <Row size="24"/>
+              </Rows>
+              <Band id="head">
+                <Cell text="ROAD_ADDR"/>
+                <Cell col="1" text="ROAD_ADDR_PART1"/>
+                <Cell col="2" text="JIBUN_ADDR"/>
+                <Cell col="3" text="ZIP_NO"/>
+                <Cell col="4" text="TOTAL_COUNT"/>
+                <Cell col="5" text="CURRENT_PAGE"/>
+                <Cell col="6" text="COUNT_PER_PAGE"/>
+                <Cell col="7" text="ERROR_CODE"/>
+                <Cell col="8" text="ERROR_MESSAGE"/>
+              </Band>
+              <Band id="body">
+                <Cell text="bind:ROAD_ADDR"/>
+                <Cell col="1" text="bind:ROAD_ADDR_PART1"/>
+                <Cell col="2" text="bind:JIBUN_ADDR"/>
+                <Cell col="3" text="bind:ZIP_NO"/>
+                <Cell col="4" text="bind:TOTAL_COUNT"/>
+                <Cell col="5" text="bind:CURRENT_PAGE"/>
+                <Cell col="6" text="bind:COUNT_PER_PAGE"/>
+                <Cell col="7" text="bind:ERROR_CODE"/>
+                <Cell col="8" text="bind:ERROR_MESSAGE"/>
+              </Band>
+            </Format>
+          </Formats>
+        </Grid>
+        <Edit id="Edit00" taborder="2" left="61" top="41" width="639" height="49" value="양화로162" text="양화로162"/>
+        <Button id="Button00" taborder="3" text="검색" left="977" top="34" width="157" height="43" onclick="Button00_onclick"/>
+      </Layout>
+    </Layouts>
+    <Script type="xscript5.1"><![CDATA[
+this.juso_onload = function(obj:nexacro.Form,e:nexacro.LoadEventInfo)
+{	
+
+};
+
+this.Button00_onclick = function(obj:nexacro.Button,e:nexacro.ClickEventInfo)
+{
+	this.transaction("searchZipCd",
+			"dataURL::sys/searchZipCd.do",
+			"",
+			"ds_roadAddr=ds_roadAddr",
+			"keyword='" + this.Edit00.value + "'",
+			"callback",
+			false
+		);
+};
+
+this.callback = function (strSvcID, nErrorCode, strErrorMsg)
+{
+	switch(strSvcID) {
+	case "searchZipCd" :
+		trace("this.ds_roadAddr >>>>>>>>>> \n " +this.ds_roadAddr.saveXML());
+		break;
+	default:
+	}
+};
+]]></Script>
+    <Objects>
+      <Dataset id="ds_roadPage">
+        <ColumnInfo>
+          <Column id="totalCount" type="STRING" size="256"/>
+          <Column id="currentPage" type="STRING" size="256"/>
+          <Column id="countPerPage" type="STRING" size="256"/>
+          <Column id="errorCode" type="STRING" size="256"/>
+          <Column id="errorMessage" type="STRING" size="256"/>
+          <Column id="Column0" type="STRING" size="256"/>
+        </ColumnInfo>
+      </Dataset>
+      <Dataset id="ds_roadAddr">
+        <ColumnInfo>
+          <Column id="ROAD_ADDR" type="STRING" size="256"/>
+          <Column id="ROAD_ADDR_PART1" type="STRING" size="256"/>
+          <Column id="JIBUN_ADDR" type="STRING" size="256"/>
+          <Column id="ZIP_NO" type="STRING" size="256"/>
+          <Column id="TOTAL_COUNT" type="STRING" size="256"/>
+          <Column id="CURRENT_PAGE" type="STRING" size="256"/>
+          <Column id="COUNT_PER_PAGE" type="STRING" size="256"/>
+          <Column id="ERROR_CODE" type="STRING" size="256"/>
+          <Column id="ERROR_MESSAGE" type="STRING" size="256"/>
+        </ColumnInfo>
+      </Dataset>
+    </Objects>
+  </Form>
+</FDL>

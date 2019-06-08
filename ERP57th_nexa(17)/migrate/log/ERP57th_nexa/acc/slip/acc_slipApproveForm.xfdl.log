@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'align:middle' to 'verticalAlign=middle']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="10"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="9"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 10 Dotum' to 'font=bold 10pt Dotum']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="10"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="9"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="10"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="9"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="11"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="10"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['expr' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="46"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="45"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="52"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="51"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['expr' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="94"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="93"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['expr' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="95"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="94"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['expr' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="96"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="95"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="101"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="100"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['expr' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="125"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="124"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="130"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="129"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['expr' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="154"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="153"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'align:center middle' to 'textAlign=center']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="161"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="160"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'align:center middle' to 'verticalAlign=middle']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="161"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="160"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="161"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="160"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'border:3 solid darkgray' to 'border=3px solid darkgray']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="163"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="162"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 16 함초롬돋움,돋움' to 'font=bold 16pt 함초롬돋움,돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="163"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="162"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="163"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="162"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'border:3 solid darkgray' to 'border=3px solid darkgray']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="165"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="164"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 16 함초롬돋움,돋움' to 'font=bold 16pt 함초롬돋움,돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="165"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="164"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="165"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="164"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="277">
+        <context type="script" name="" line="9"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="276">
+        <context type="script" name="" line="9"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="277">
+        <context type="script" name="" line="10"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="276">
+        <context type="script" name="" line="10"/>
+      </context>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['init' of ChildFrame is changed argument (position)]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="277">
+        <context type="script" name="" line="126"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="276">
+        <context type="script" name="" line="128"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl" line="277">
+        <context type="script" name="" line="138"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl" line="276">
+        <context type="script" name="" line="144"/>
+      </context>
+    </location>
+  </item>
+</migration>

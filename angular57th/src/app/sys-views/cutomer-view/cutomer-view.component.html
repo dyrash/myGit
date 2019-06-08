@@ -1,0 +1,10 @@
+<ag-grid-angular 
+  #customerGrid
+  style="width: 1000px; height: 500px; " 
+  class="ag-theme-balham"
+  [rowData]=customerListArray.customerList
+  [columnDefs]="columnDefs"
+  rowSelection="multiple"
+   >
+</ag-grid-angular>
+<button (click)="addRows()">거래처추가</button><button (click)="deleteRow()">거래처삭제</button><button (click)="batchData()">일괄저장</button>

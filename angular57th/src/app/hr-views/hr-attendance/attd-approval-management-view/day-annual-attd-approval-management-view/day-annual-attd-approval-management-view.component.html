@@ -1,0 +1,65 @@
+
+<p></p>
+<span style="font: oblique bold 1.5em/1em Georgia, serif ; color:	#000080;">
+  [ 휴가/연차 승인 관리 ]
+  </span>
+  <p></p>
+
+<div>
+  <label>조회기간: </label>
+  <mat-form-field color="accent">
+    <mat-label>시작일</mat-label>
+    <input matInput [matDatepicker]="picker1" [(ngModel)]="model">
+    <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+    <mat-datepicker #picker1></mat-datepicker>
+  </mat-form-field>
+
+  <mat-form-field color="accent">
+    <mat-label>종료일</mat-label>
+    <input matInput [matDatepicker]="picker2" [(ngModel)]="model2">  
+    <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+    <mat-datepicker #picker2 color="primary"></mat-datepicker>
+  </mat-form-field>
+
+  
+
+  </div>
+
+  <label>부서  : </label>
+<mat-form-field>
+    <mat-select placeholder="부서선택" [(ngModel)]="deptCode">
+      <mat-option>-- None --</mat-option>
+      <mat-option value="DEP000">경영부</mat-option>
+      <mat-option value="DEP001">회계부</mat-option>
+      <mat-option value="DEP007">인사부</mat-option>  
+      <mat-option value="DEP010">물류부</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <div>
+  <label>승인구분  : </label>
+  <mat-form-field>
+      <mat-select placeholder="승인구분" [(ngModel)]="approvalStatus">
+        <mat-option>-- None --</mat-option>
+        <mat-option value="Y">승인</mat-option>
+        <mat-option value="N">미승인</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button class="btn btn-primary" (click)="findStatment(model,model2)">조회</button>
+
+
+    </div>
+
+    <button style="margin-bottom:10px; margin-left:5px; margin-right:10px;" class="btn btn-info" (click)="checkApproval()">선택승인변경</button>
+    <button style="margin-bottom:10px; margin-left:5px; margin-right:10px;" class="btn btn-warning" (click)="getSelectedRows()">선택</button>
+    <button style="margin-bottom:10px; margin-left:600px; margin-right:10px;" class="btn btn-danger" (click)="checkdelete()">선택삭제</button>
+    <button style="margin-bottom:10px; margin-left:5px; margin-right:10px;" class="btn btn-success" (click)="savebtn()">저장</button>
+
+
+<ag-grid-angular 
+#statmentGrid
+style="width: 1000px; height: 500px; " 
+class="ag-theme-balham"
+[rowData]=statmentArray.dayAnnualList
+[columnDefs]="columnDefs"
+>
+</ag-grid-angular>

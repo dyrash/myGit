@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['classname' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="8"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="7"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="23"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="22"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="24"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="23"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="25"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="24"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="26"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="25"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="27"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="26"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="30"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="29"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="31"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="30"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="32"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="31"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="33"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="32"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="34"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="33"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="44"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="43"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="87"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="86"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="109"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="108"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="110"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="109"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="111"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="110"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="112"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="111"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="113"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="112"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="114"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="113"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="115"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="114"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="116"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="115"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="117"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="116"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="118"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="117"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="119"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="118"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="120"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="119"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="123"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="122"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="124"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="123"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="125"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="124"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="126"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="125"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="127"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="126"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="128"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="127"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="129"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="128"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="130"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="129"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="131"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="130"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="132"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="131"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="133"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="132"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl" line="134"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl" line="133"/>
+    </location>
+  </item>
+</migration>

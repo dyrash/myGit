@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="8"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="7"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="9"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="8"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="10"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="9"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Combo' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="11"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="10"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Combo' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="12"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="11"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'MaskEdit' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="13"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="12"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="14"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="13"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'border:3 solid darkgray' to 'border=3px solid darkgray']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="15"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="14"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 16 함초롬돋움,돋움' to 'font=bold 16pt 함초롬돋움,돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="15"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="14"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="15"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="14"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="15"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="14"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="16"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="15"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'border:1 solid #cbcbcbff' to 'border=1px solid rgba(203,203,203,1)']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="16"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="15"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Grid' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="16"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="15"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Grid' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="16"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="15"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="47"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="46"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'border:1 solid #cbcbcbff' to 'border=1px solid rgba(203,203,203,1)']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="47"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="46"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Grid' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="47"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="46"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Grid' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="47"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="46"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['expr' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="64"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="63"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="69"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="68"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'border:1 solid #cbcbcbff' to 'border=1px solid rgba(203,203,203,1)']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="69"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="68"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Grid' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="69"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="68"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Grid' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="69"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="68"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['expr' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="86"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="85"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="91"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="90"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="92"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="91"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="93"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="92"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="94"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="93"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="95"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="94"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="96"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="95"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="97"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="96"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="98"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="97"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="99"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="98"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="100"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="99"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="101"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="100"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'TextArea' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="102"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="101"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'TextArea' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="103"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="102"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'TextArea' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="104"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="103"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'TextArea' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="105"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="104"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'TextArea' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="106"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="105"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'MaskEdit' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="107"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="106"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'MaskEdit' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="108"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="107"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'MaskEdit' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="109"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="108"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'TextArea' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="110"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="109"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['position' of 'TextArea' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="111"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="110"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['firenextcount' of 'Dataset' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="209"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="208"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['firenextcount' of 'Dataset' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="215"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="214"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['firenextcount' of 'Dataset' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="225"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="224"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['firenextcount' of 'Dataset' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="250"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="249"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['firenextcount' of 'Dataset' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="261"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="260"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'open' of application to 'nexacro.open']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="287">
+        <context type="script" name="" line="12"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="286">
+        <context type="script" name="" line="12"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="287">
+        <context type="script" name="" line="43"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="286">
+        <context type="script" name="" line="45"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="287">
+        <context type="script" name="" line="49"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="286">
+        <context type="script" name="" line="51"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="287">
+        <context type="script" name="" line="50"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="286">
+        <context type="script" name="" line="52"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="287">
+        <context type="script" name="" line="51"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="286">
+        <context type="script" name="" line="53"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="287">
+        <context type="script" name="" line="52"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="286">
+        <context type="script" name="" line="54"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="287">
+        <context type="script" name="" line="61"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="286">
+        <context type="script" name="" line="64"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="287">
+        <context type="script" name="" line="62"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="286">
+        <context type="script" name="" line="65"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'open' of application to 'nexacro.open']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl" line="287">
+        <context type="script" name="" line="87"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl" line="286">
+        <context type="script" name="" line="86"/>
+      </context>
+    </location>
+  </item>
+</migration>

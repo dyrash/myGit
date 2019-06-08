@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.0">
+  <Form id="logi_EstimateDialog" width="1027" height="749" titletext="New Form" onload="logi_EstimateDialog_onload">
+    <Layouts>
+      <Layout>
+        <GroupBox id="GroupBox00" text="견적에서 추가" taborder="0" left="0.78%" top="18" right="1.66%" height="706" onlbuttondown="GroupBox00_onlbuttondown" background="transparent" border="2px solid rgba(51,51,51,1)" color="black" font="25pt Dotum,HY견고딕"/>
+        <Grid id="grd_estimateDialog" taborder="1" binddataset="ds_estimate" autofittype="col" left="46" top="82" width="940" height="614" onexpandup="grd_estimateDialog_onexpandup" onchar="grd_estimateDialog_onchar" oncelldblclick="grd_estimateDialog_oncelldblclick" font="11pt 새굴림">
+          <Formats>
+            <Format id="default">
+              <Columns>
+                <Column size="100"/>
+                <Column size="100"/>
+                <Column size="100"/>
+                <Column size="100"/>
+                <Column size="100"/>
+                <Column size="100"/>
+              </Columns>
+              <Rows>
+                <Row size="30" band="head"/>
+                <Row size="25"/>
+              </Rows>
+              <Band id="head">
+                <Cell displaytype="normal" text="견적일련번호" font="bold 11pt 한컴산뜻돋움"/>
+                <Cell col="1" displaytype="normal" text="거래처명" font="bold 11pt 한컴산뜻돋움"/>
+                <Cell col="2" displaytype="normal" text="견적일자" font="bold 11pt 한컴산뜻돋움"/>
+                <Cell col="3" displaytype="normal" text="견적유효일자" font="bold 11pt 한컴산뜻돋움"/>
+                <Cell col="4" displaytype="normal" text="견적요청자" font="bold 11pt 한컴산뜻돋움"/>
+                <Cell col="5" displaytype="normal" text="담당자" font="bold 11pt 한컴산뜻돋움"/>
+              </Band>
+              <Band id="body">
+                <Cell displaytype="normal" text="bind:ESTIMATE_NO" font="11pt 한컴산뜻돋움"/>
+                <Cell col="1" displaytype="normal" text="bind:CUSTOMER_CODE" font="11pt 한컴산뜻돋움"/>
+                <Cell col="2" displaytype="normal" text="bind:ESTIMATE_DATE" font="11pt 한컴산뜻돋움"/>
+                <Cell col="3" displaytype="normal" text="bind:EFFECTIVE_DATE" font="11pt 한컴산뜻돋움"/>
+                <Cell col="4" displaytype="normal" text="bind:ESTIMATE_REQUESTER" font="11pt 한컴산뜻돋움"/>
+                <Cell col="5" displaytype="normal" text="bind:PERSON_CODE_IN_CHARGE" font="11pt 한컴산뜻돋움"/>
+              </Band>
+            </Format>
+          </Formats>
+        </Grid>
+      </Layout>
+    </Layouts>
+    <Objects>
+      <Dataset id="ds_estimate">
+        <ColumnInfo>
+          <Column id="ESTIMATE_NO" type="STRING" size="256"/>
+          <Column id="CUSTOMER_CODE" type="STRING" size="256"/>
+          <Column id="ESTIMATE_DATE" type="STRING" size="256"/>
+          <Column id="CONTRACT_STATUS" type="STRING" size="256"/>
+          <Column id="ESTIMATE_REQUESTER" type="STRING" size="256"/>
+          <Column id="EFFECTIVE_DATE" type="STRING" size="256"/>
+          <Column id="PERSON_CODE_IN_CHARGE" type="STRING" size="256"/>
+          <Column id="DESCRIPTION" type="STRING" size="256"/>
+        </ColumnInfo>
+      </Dataset>
+      <Dataset id="ds_estimateDetail">
+        <ColumnInfo>
+          <Column id="ESTIMATE_DETAIL_NO" type="STRING" size="256"/>
+          <Column id="ESTIMATE_NO" type="STRING" size="256"/>
+          <Column id="ITEM_CODE" type="STRING" size="256"/>
+          <Column id="ITEM_NAME" type="STRING" size="256"/>
+          <Column id="UNIT_OF_ESTIMATE" type="STRING" size="256"/>
+          <Column id="DUE_DATE_OF_ESTIMATE" type="STRING" size="256"/>
+          <Column id="ESTIMATE_AMOUNT" type="STRING" size="256"/>
+          <Column id="UNIT_PRICE_OF_ESTIMATE" type="STRING" size="256"/>
+          <Column id="SUM_PRICE_OF_ESTIMATE" type="STRING" size="256"/>
+          <Column id="DESCRIPTION" type="STRING" size="256"/>
+        </ColumnInfo>
+      </Dataset>
+    </Objects>
+    <Script type="xscript5.1"><![CDATA[
+// 온로드
+this.logi_EstimateDialog_onload = function (obj:Form, e:nexacro.LoadEventInfo)
+{
+	this.transaction("findEstimateDialog",
+		"dataURL::logi/business/findEstimateDialog.do",
+		"",
+		"ds_estimate=ds_estimate",
+		"",
+		"callback");
+};
+
+var dialogName = "";
+
+this.grd_estimateDialog_oncelldblclick = function (obj:Grid, e:nexacro.GridClickEventInfo)
+{
+	var customerCode = this.ds_estimate.getColumn(e.row, "CUSTOMER_CODE");
+	var estimateNo = this.ds_estimate.getColumn(e.row, "ESTIMATE_NO");
+	var personCodeInCharge = this.ds_estimate.getColumn(e.row, "PERSON_CODE_IN_CHARGE");
+	var estimateRequester = this.ds_estimate.getColumn(e.row, "ESTIMATE_REQUESTER");
+
+	var day = nexacro.getApplication().today();
+
+	this.opener.test(estimateNo);
+	this.close(customerCode + "/" + estimateNo + "/" + personCodeInCharge + "/" + estimateRequester);
+};
+]]></Script>
+  </Form>
+</FDL>

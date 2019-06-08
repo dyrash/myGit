@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="24"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="23"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="58"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="57"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['focusborder' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="58"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="57"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Grid' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="58"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="57"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="70"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="69"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="71"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="70"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="74"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="73"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['disptype' of 'Cell' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="75"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="74"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="80"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="79"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['focusborder' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="80"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="79"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Grid' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="80"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="79"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="105"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="104"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['itemcolor' of 'Combo' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="132"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="131"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Combo' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="132"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="131"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'open' of application to 'nexacro.open']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="203">
+        <context type="script" name="" line="43"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="202">
+        <context type="script" name="" line="41"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'open' of application to 'nexacro.open']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl" line="203">
+        <context type="script" name="" line="57"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl" line="202">
+        <context type="script" name="" line="60"/>
+      </context>
+    </location>
+  </item>
+</migration>

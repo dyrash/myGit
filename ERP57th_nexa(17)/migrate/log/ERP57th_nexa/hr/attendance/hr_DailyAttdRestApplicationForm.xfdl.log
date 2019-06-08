@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="8"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="7"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['dayfont' of 'Calendar' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="55"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="54"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 함초롬돋움,돋움' to 'font=11pt 함초롬돋움,돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="55"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="54"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Calendar' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="55"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="54"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['dayfont' of 'Calendar' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="57"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="56"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 함초롬돋움,돋움' to 'font=11pt 함초롬돋움,돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="57"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="56"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Calendar' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="57"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="56"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['dayfont' of 'Calendar' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="59"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="58"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 함초롬돋움,돋움' to 'font=11pt 함초롬돋움,돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="59"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="58"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Calendar' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="59"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="58"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['dayfont' of 'Calendar' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="67"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="66"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 함초롬돋움,돋움' to 'font=11pt 함초롬돋움,돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="67"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="66"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Calendar' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="67"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="66"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['dayfont' of 'Calendar' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="68"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="67"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 함초롬돋움,돋움' to 'font=11pt 함초롬돋움,돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="68"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="67"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Calendar' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="68"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="67"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'align:left middle' to 'textAlign=left']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="71"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="70"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'MaskEdit' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="71"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="70"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="117">
+        <context type="script" name="" line="10"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="116">
+        <context type="script" name="" line="10"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="117">
+        <context type="script" name="" line="41"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="116">
+        <context type="script" name="" line="41"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="117">
+        <context type="script" name="" line="64"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="116">
+        <context type="script" name="" line="68"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="117">
+        <context type="script" name="" line="78"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="116">
+        <context type="script" name="" line="83"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="117">
+        <context type="script" name="" line="79"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl" line="116">
+        <context type="script" name="" line="84"/>
+      </context>
+    </location>
+  </item>
+</migration>

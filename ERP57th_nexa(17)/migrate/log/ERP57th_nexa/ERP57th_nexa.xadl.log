@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['<GlobalVariables>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="4"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['codepage' of 'Application' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="5"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['language' of 'Application' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="5"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['loginformurl' of 'Application' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="5"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['loginformstyle' of 'Application' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="5"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['windowopeneffect' of 'Application' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="5"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['windowcloseeffect' of 'Application' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="5"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['tracemode' of 'Application' is changed to the ownership of the 'Environment'(or 'Screen')]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="5"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['themeid' of 'Application' is changed to the ownership of the 'Environment'(or 'Screen')]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="5"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="3"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['title' of 'MainFrame' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="5"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['defaultfont' of 'MainFrame' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="5"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'MainFrame' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="5"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'MainFrame' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="5"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'MainFrame' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="5"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['<ScreenInfo>' tag is changed to the ownership of the 'Environment']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="21"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="5"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[set 'screenid="screen_init"' to 'Application']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="0"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="0"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="25">
+        <context type="script" name="" line="49"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="20">
+        <context type="script" name="" line="47"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="25">
+        <context type="script" name="" line="50"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="20">
+        <context type="script" name="" line="48"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'open' of application to 'nexacro.open']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="25">
+        <context type="script" name="" line="59"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="20">
+        <context type="script" name="" line="56"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="25">
+        <context type="script" name="" line="62"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="20">
+        <context type="script" name="" line="59"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="25">
+        <context type="script" name="" line="84"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="20">
+        <context type="script" name="" line="78"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="25">
+        <context type="script" name="" line="139"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="20">
+        <context type="script" name="" line="133"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="25">
+        <context type="script" name="" line="147"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="20">
+        <context type="script" name="" line="141"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="25">
+        <context type="script" name="" line="154"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="20">
+        <context type="script" name="" line="148"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="25">
+        <context type="script" name="" line="160"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="20">
+        <context type="script" name="" line="154"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl" line="25">
+        <context type="script" name="" line="166"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl" line="20">
+        <context type="script" name="" line="160"/>
+      </context>
+    </location>
+  </item>
+</migration>

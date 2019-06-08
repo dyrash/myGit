@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ADL version="2.0">
+  <Application id="ERP57th" version="" onload="application_onload" screenid="screen_init" licenseurl="C:\Tomcat 9.0\lib">
+    <Layout>
+      <MainFrame id="mainframe" resizable="true" showtitlebar="true" showstatusbar="false" width="1440" height="900" titletext="ERP57th">
+        <VFrameSet id="VFrameSet0" separatesize="100,*" showtitleicon="false" showcascadestatustext="false" showcascadetitletext="false">
+          <Frames>
+            <ChildFrame id="ChildFrame0" showtitlebar="false" showtitleicon="false" formurl="base::mainTopForm.xfdl" showcascadestatustext="false" showcascadetitletext="false" dragmovetype="none"/>
+            <HFrameSet id="HFrameSet0" separatesize="250,*" showtitleicon="false" showcascadestatustext="false" showcascadetitletext="false">
+              <Frames>
+                <ChildFrame id="ChildFrame1" showtitlebar="false" showtitleicon="false" formurl="base::mainMenuForm.xfdl" showcascadestatustext="false" showcascadetitletext="false" dragmovetype="none"/>
+                <ChildFrame id="ChildFrame2" dragmovetype="none" showtitlebar="false" showtitleicon="false"/>
+              </Frames>
+            </HFrameSet>
+          </Frames>
+        </VFrameSet>
+      </MainFrame>
+    </Layout>
+  </Application>
+  <Script type="xscript5.1"><![CDATA[// this.application_onload = function(obj:Application, e:nexacro.LoadEventInfo)
+// {
+// // 현재 화면 해상도 읽기
+// var nMoniterIndex = system.getMonitorIndex(system.cursorx, system.cursory); // MoniterIndex
+// 
+// var strScreenRes = system.getScreenResolution(nMoniterIndex);
+// var arrScreen = strScreenRes.split(" ");
+// 
+// var nCenterX = new Number(arrScreen[0]); // X Resolution
+// var nCenterY = new Number(arrScreen[1]); // Y Resolution
+// 
+// trace("화면 해상도 : 가로 " + nCenterX + ", 세로 " + nCenterY);
+// 
+// application.setVariable("gvScreenWidth", nCenterX);
+// application.setVariable("gvScreenHeight", nCenterY);
+// 
+// // 현재 화면 해상도에 맞춰서 화면 중앙에 뜨도록 좌표 설정
+// 
+// var nLoginWidth = 500;  // 로그인 폼의 너비
+// var nLoginHeight = 400;  // 로그인 폼의 높이
+// 
+// var nLeft = nCenterX/2 - nLoginWidth/2;
+// var nTop = nCenterY/2 - nLoginHeight/2;
+// 
+// // 메인프레임 안보이게 숨기기
+// application.mainframe.set_visible(false);
+// 
+// var loginFormUrl = "base::loginForm.xfdl";
+// 
+// application.open("login", "base::loginForm.xfdl", null, "",
+// "showtitlebar=true showstatusbar=false style.border='1px solid blue'",
+// nLeft, nTop, nLoginWidth, nLoginHeight);
+// }
+
+
+this.application_onload = function (obj:Application, e:LoadEventInfo)
+{
+	// 현재 화면 해상도 읽기
+	var nMoniterIndex = system.getMonitorIndex(system.cursorx, system.cursory);
+	var strScreenRes = system.getScreenResolution(nMoniterIndex);
+	var arrScreen = strScreenRes.split(" ");
+
+	var nCenterX = new Number(arrScreen[0]);
+	var nCenterY = new Number(arrScreen[1]);
+	trace("화면 해상도 : 가로 " + nCenterX + ", 세로 " + nCenterY);
+
+	nexacro.getApplication().setVariable("gvScreenWidth", nCenterX);
+	nexacro.getApplication().setVariable("gvScreenHeight", nCenterY);
+
+	// 현재 화면 해상도에 맞춰서 화면 중앙에 뜨도록 좌표 설정
+
+	var nLoginWidth = 500;
+	var nLoginHeight = 400;
+	var nLeft = nCenterX / 2 - nLoginWidth / 2;
+	var nTop = nCenterY / 2 - nLoginHeight / 2;
+	nexacro.open("login", "base::loginForm.xfdl", null, "",
+		"showtitlebar=true showstatusbar=false style.border='1px solid blue'",
+		nLeft, nTop, nLoginWidth, nLoginHeight);
+	nexacro.getApplication().mainframe.set_visible(false); //openLoginFormDialog("loginForm","LoginForm","base::loginForm.xfdl");
+};
+
+this.openLoginFormDialog = function (sID, sTitle, sUrl)
+{
+	// Dialog.showModal(sParent);
+
+	var loginDialog = new ChildFrame(sID, 0, 0, 0, 0, sUrl);
+	loginDialog.showstatusbar = false;
+	loginDialog.resizable = false;
+	// loginDialog.titletext=sTitle;
+	loginDialog.showstatusbar = false;
+	loginDialog.openalign = "center middle"; //ChildFrame 뜰때 위치 지정
+	loginDialog.showcascadetitletext = false; //newForm 상단에 나타나는것 제거!!(text 미포함)
+	loginDialog.showModal(sID, ""); //선언 순서 상관 있음
+};
+
+this.gfn_Open = function (sID, sURL, sTitle)
+{
+	var menuTreePath = nexacro.getApplication().mainframe.VFrameSet0.HFrameSet0.ChildFrame2;
+
+	menuTreePath.set_formurl(sURL);
+	menuTreePath.set_titletext(sTitle);
+};
+
+/********************************************************************************                                                                            
+ 오늘 날짜
+ @Path      공통
+ @Description   오늘 날짜 불러오는 함수
+ @Author        조아람
+ @Create           2019. 02. 12.
+ ********************************************************************************/
+this.today = function ()
+{
+	var date = new Date();
+	var year = date.getFullYear().toString().padLeft(4, "0");
+	var month = (date.getMonth() + 1).toString().padLeft(2, "0");
+	var day = date.getDate().toString().padLeft(2, "0");
+	var today = year + month + day;
+
+	return today;
+};
+
+/********************************************************************************                                                                            
+ 오늘 날짜 작데기버전
+ @Path      공통
+ @Description   오늘 날짜 불러오는 함수
+ @Author        조윤희
+ @Create           2019. 02. 27.
+ ********************************************************************************/
+this.todayBar = function ()
+{
+	var date = new Date();
+	var year = date.getFullYear().toString().padLeft(4, "0");
+	var month = (date.getMonth() + 1).toString().padLeft(2, "0");
+	var day = date.getDate().toString().padLeft(2, "0");
+	var today = year + month + day;
+
+	var s_today = today.toString();
+
+	var today = s_today.substr(0, 4) + "-" + s_today.substr(4, 2) + "-" + s_today.substr(6, 2);
+
+	return today;
+};
+
+/********************************************************************************                                                                            
+ 기초데이터
+ @Path      공통
+ @Description   시스템 초기화시 기초데이터 불러오는 함수
+ @Author        허용석
+ @Create           2019. 02. 13.
+ ********************************************************************************/
+this.basicTransaction = function ()
+{
+	var objFrameSet = nexacro.getApplication().mainframe.all["VFrameSet0"].all["ChildFrame0"].form;
+	objFrameSet.edt_authorityCode.value;
+	var businessPlaceCode = objFrameSet.edt_businessCode.value;
+	trace(businessPlaceCode);
+	objFrameSet.edt_deptCode.value;
+	objFrameSet.edt_empCode.value;
+	objFrameSet.edt_empName.value;
+
+	nexacro.getApplication().transaction("findBusinessPlaceList",
+		"dataURL::sys/findDepartmentList.do",
+		"",
+		"gds_dept=gds_department",
+		"businessPlaceCode=" + businessPlaceCode,
+		"callback");
+
+	nexacro.getApplication().transaction("findBaseYearList",
+		"dataURL::sys/findBaseYearList.do",
+		"",
+		"gds_baseYear=gds_baseYear",
+		"businessPlaceCode=" + businessPlaceCode,
+		"callback");
+	nexacro.getApplication().transaction("findEmployeeList",
+		"dataURL::hr/emp/findEmployeeList.do",
+		"",
+		"gds_employee=gds_employee",
+		"",
+		"callback");
+	nexacro.getApplication().transaction("findCodeDetailList",
+		"dataURL::sys/findCodeDetailList.do",
+		"",
+		"gds_codeDetail=gds_codeDetail",
+		"",
+		"callback");
+};
+]]></Script>
+</ADL>

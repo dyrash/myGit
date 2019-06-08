@@ -1,0 +1,1318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'border:3 solid darkgray' to 'border=3px solid darkgray']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 16 함초롬돋움,돋움' to 'font=bold 16pt 함초롬돋움,돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="8"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="7"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:새굴림,11' to 'font=11pt 새굴림']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="8"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="7"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Grid' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="8"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="7"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="27"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="26"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="27"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="26"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="28"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="27"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="28"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="27"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="29"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="28"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="29"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="28"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="30"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="29"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="30"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="29"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="31"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="30"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="31"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="30"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="32"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="31"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="32"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="31"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="33"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="32"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="33"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="32"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="34"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="33"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="34"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="33"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="35"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="34"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="35"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="34"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="38"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="37"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="38"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="37"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="39"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="38"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="39"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="38"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="40"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="39"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="40"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="39"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="41"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="40"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="41"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="40"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="42"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="41"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="42"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="41"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="43"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="42"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="43"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="42"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="44"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="43"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="44"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="43"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="45"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="44"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="45"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="44"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="46"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="45"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="46"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="45"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="51"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="50"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="51"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="50"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="52"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="51"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="52"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="51"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="53"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="52"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="53"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="52"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="54"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="53"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="54"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="53"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="55"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="54"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:새굴림,11' to 'font=11pt 새굴림']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="55"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="54"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Grid' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="55"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="54"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="69"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="68"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="69"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="68"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="70"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="69"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="70"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="69"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="71"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="70"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="71"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="70"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="72"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="71"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="72"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="71"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="75"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="74"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="75"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="74"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="76"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="75"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="76"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="75"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['expandshow' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="76"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="75"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="77"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="76"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="77"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="76"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="78"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="77"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="78"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="77"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'border:2 solid darkgray' to 'border=2px solid darkgray']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="83"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="82"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'color:dimgray' to 'color=dimgray']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="83"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="82"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'align:center' to 'textAlign=center']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="83"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="82"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 12 Verdana' to 'font=bold 12pt Verdana']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="83"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="82"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="83"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="82"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="84"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="83"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:새굴림,11' to 'font=11pt 새굴림']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="84"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="83"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Grid' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="84"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="83"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="98"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="97"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="98"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="97"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="99"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="98"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="99"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="98"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="100"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="99"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="100"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="99"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="101"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="100"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="101"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="100"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="104"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="103"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="104"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="103"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="105"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="104"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="105"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="104"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="106"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="105"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="106"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="105"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="107"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="106"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="107"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="106"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'open' of application to 'nexacro.open']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="54"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="54"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="77"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="72"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="79"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="74"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="96"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="91"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="97"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="92"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="100"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="95"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="101"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="96"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="108"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="103"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="110"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="105"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="112"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="107"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="115"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="111"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="120"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="120"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="123"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="125"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="126"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="128"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="129"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="131"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="131"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="133"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="133"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="135"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="143"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="144"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="145"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="146"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="147"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="148"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="149"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="150"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="151"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="152"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="153"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="154"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="167"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="163"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="170"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="166"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="174"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="170"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="192"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="190"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="203"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="202"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="208"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="209"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="209"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="210"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="234"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="238"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="240"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="248"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="246"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="258"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl" line="167">
+        <context type="script" name="" line="248"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl" line="166">
+        <context type="script" name="" line="262"/>
+      </context>
+    </location>
+  </item>
+</migration>

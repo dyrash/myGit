@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="29"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="28"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="29"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="28"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="30"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="29"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="30"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="29"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="31"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="30"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="31"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="30"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="32"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="31"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="32"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="31"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="33"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="32"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="33"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="32"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="34"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="33"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="34"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="33"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="35"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="34"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="35"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="34"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="36"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="35"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="36"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="35"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="37"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="36"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="37"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="36"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="38"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="37"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="38"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="37"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="39"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="38"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="39"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="38"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="40"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="39"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="40"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="39"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="43"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="42"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="43"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="42"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="44"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="43"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="44"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="43"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="45"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="44"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="45"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="44"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="46"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="45"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="46"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="45"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="47"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="46"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="47"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="46"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="48"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="47"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="48"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="47"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="49"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="48"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="49"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="48"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="50"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="49"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="50"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="49"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="51"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="50"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="51"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="50"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="52"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="51"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="52"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="51"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="53"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="52"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="53"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="52"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="54"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="53"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl" line="54"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl" line="53"/>
+    </location>
+  </item>
+</migration>

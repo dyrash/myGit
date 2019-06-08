@@ -1,0 +1,911 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'border:3 solid darkgray' to 'border=3px solid darkgray']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 16 함초롬돋움,돋움' to 'font=bold 16pt 함초롬돋움,돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="8"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="7"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA[pseudo style is not support. instead, use css or theme.]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="8"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="7"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="8"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="7"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="9"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="8"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="23"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="22"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="23"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="22"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="24"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="23"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="24"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="23"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="25"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="24"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="25"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="24"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="26"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="25"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="26"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="25"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="29"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="28"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="29"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="28"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="30"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="29"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="30"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="29"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="31"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="30"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="31"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="30"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="32"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="31"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="32"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="31"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="37"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="36"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA[pseudo style is not support. instead, use css or theme.]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="37"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="36"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="37"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="36"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="38"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="37"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="53"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="52"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="53"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="52"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="54"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="53"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="54"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="53"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="55"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="54"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="55"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="54"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="56"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="55"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="56"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="55"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="57"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="56"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="57"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="56"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="60"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="59"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="60"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="59"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="61"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="60"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="61"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="60"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="62"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="61"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="62"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="61"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="63"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="62"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="63"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="62"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="64"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="63"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="64"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="63"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="69"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="68"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA[pseudo style is not support. instead, use css or theme.]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="69"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="68"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="69"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="68"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="70"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="69"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="84"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="83"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="84"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="83"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="85"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="84"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="85"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="84"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="86"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="85"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="86"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="85"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="87"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="86"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="87"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="86"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="90"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="89"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="90"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="89"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="91"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="90"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="91"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="90"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="92"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="91"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="92"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="91"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="93"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="92"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="93"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="92"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="98"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="97"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="113"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="112"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="113"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="112"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="114"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="113"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="114"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="113"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="115"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="114"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="115"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="114"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="116"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="115"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="116"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="115"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="117"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="116"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="117"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="116"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="120"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="119"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="120"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="119"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="121"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="120"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="121"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="120"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="122"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="121"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="122"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="121"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="123"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="122"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="123"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="122"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:11 한컴산뜻돋움' to 'font=11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="124"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="123"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Cell' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="124"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="123"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 11 한컴산뜻돋움' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="129"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="128"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA[pseudo style is not support. instead, use css or theme.]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="129"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="128"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="129"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="128"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="132"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="131"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="132"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="131"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:한컴산뜻돋움,11,bold' to 'font=bold 11pt 한컴산뜻돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="133"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="132"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="133"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="132"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="195">
+        <context type="script" name="" line="18"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="194">
+        <context type="script" name="" line="19"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl" line="195">
+        <context type="script" name="" line="107"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl" line="194">
+        <context type="script" name="" line="109"/>
+      </context>
+    </location>
+  </item>
+</migration>

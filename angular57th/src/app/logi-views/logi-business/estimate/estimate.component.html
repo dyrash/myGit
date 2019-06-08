@@ -1,0 +1,67 @@
+<div [@toggle]="stateName">
+  <ngb-datepicker #dp (select)="onDateSelection($event)" [displayMonths]="2" [dayTemplate]="t" outsideDays="hidden" [hidden]="!datePickerCheck">
+  </ngb-datepicker>
+<ng-template #t let-date let-focused="focused">
+  <span class="custom-day"
+        [class.focused]="focused"
+        [class.range]="isRange(date)"
+        [class.faded]="isHovered(date) || isInside(date)"
+        (mouseenter)="hoveredDate = date"
+        (mouseleave)="hoveredDate = null">
+    {{ date.day }}
+  </span>
+</ng-template>
+</div><div>
+<button style="margin-bottom:5px; margin-right:5px;" class="btn btn-info"  (click)="findEstimateList()">견적 조회</button>
+<button style="margin-bottom:5px; margin-right:5px;" class="btn btn-info"  (click)="addEstimate()">견적 추가</button>
+<button style="margin-bottom:5px; margin-right:5px;" class="btn btn-info"  (click)="deleteEstimate()">견적 삭제</button>
+<button style="margin-bottom:5px; margin-right:5px;" class="btn btn-info"  (click)="saveEstimate()">저장</button>
+<mat-slide-toggle #datePicker  (change)="dateSlide_OnClick($event)">달력열기</mat-slide-toggle>
+</div>
+<ag-grid-angular 
+  #estimateGrid
+  style="width: 1300px; height: 400px; " 
+  class="ag-theme-balham"
+  [rowData]=dataArray.estimateList
+  [columnDefs]="estimateColumnDefs"
+  [getRowStyle]="getRowStyle"
+  rowSelection="multiple"
+  [components]="components"
+
+   >
+</ag-grid-angular>
+
+<hr>
+
+<button style="margin-bottom:5px; margin-right:5px; " class="btn btn-info" (click)="addEstimateDetail()">견적 상세 추가</button>
+
+<ag-grid-angular 
+  #estimateDetailGrid
+  style="width: 1300px; height: 400px; " 
+  class="ag-theme-balham"
+  [rowData]=estimateDetailList
+  [columnDefs]="estimateDetailColumnDefs"
+  [getRowStyle]="getRowStyle"
+  rowSelection="multiple"
+  [components]="components"
+   >
+</ag-grid-angular>
+
+<ng-template #content let-modal>
+    <h5 class="modal-title" id="exampleModalLabel">제품목록</h5>
+    <div class="modal-header">
+        <ag-grid-angular 
+        #itemDialogGrid
+        style="width: 470px; height: 400px; " 
+        class="ag-theme-balham"
+        [rowData]=dataArray
+        [columnDefs]="itemDialogColumnDefs"
+        [getRowStyle]="getRowStyle"
+        rowSelection="multiple"
+         >
+      </ag-grid-angular>
+    </div>
+  </ng-template>
+  
+<hr>
+

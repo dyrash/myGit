@@ -1,0 +1,78 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+#slip{
+    width: 1208px;
+    height: 700px;
+}
+
+#slip .slipJournal{
+    width: 76%;
+    height:700px;
+    float: left;
+    margin-right:3px;
+    /* background: green; */
+}
+
+#slip .journalDetail{
+    width: 23%;
+    height:700px;
+    float: left;
+    /* background: red; */
+}
+
+#slipStatic{
+    background-color:pink;
+    margin-bottom:10px;
+}
+
+#journalStatic{
+    background-color:pink;
+    margin-bottom:20px;
+}
+
+#journalDetailStatic{
+    background-color:pink;
+    margin-bottom:20px;
+}
+
+#fromDate{
+   margin-right:20px;
+}
+
+#connect{
+    margin-right:25px;
+}
+#endDate{
+    margin-right:50px;
+ }
+
+#slipAddBtn{
+
+    margin-right:20px;
+}
+
+#slipSearchBtn{
+     margin-left: 10px;
+     margin-right:20px;
+}
+
+#slipDeleteBtn{
+
+    margin-right:20px;
+}
+
+#slipBatchBtn{
+  
+    margin-right:10px;
+}
+
+#journalAddBtn{
+    margin-right:20px;
+    margin-bottom:10px;
+}
+
+#journalDeleteBtn{
+    margin-right:20px;
+    margin-bottom:10px;
+}

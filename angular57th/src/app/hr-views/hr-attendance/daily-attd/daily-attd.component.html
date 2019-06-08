@@ -1,0 +1,33 @@
+
+<h2 class="bg-info text-white text-center">일근태신청</h2>
+
+<div>
+    <mat-form-field color="accent">
+        <input matInput [matDatepicker]="picker1" [(ngModel)]="model">
+        <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+        <mat-datepicker #picker1></mat-datepicker>
+      </mat-form-field>
+      
+      <mat-form-field color="accent">
+        <input matInput [matDatepicker]="picker2" [(ngModel)]="model2">
+        <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+        <mat-datepicker #picker2 color="primary"></mat-datepicker>
+      </mat-form-field>
+
+      <button type="button" class="btn btn-dark" (click)="getSelectedAttd()">조회</button>
+
+<app-time-view></app-time-view>
+
+<div style="margin-top:15px; margin-right:20px">
+    <ag-grid-angular 
+      #agGrid
+      style="width: 1300px; height: 500px; " 
+      class="ag-theme-balham"
+      [rowData]=dataArray.dailyAttdList
+      [columnDefs]="dailyAttdcolumnDefs"
+      [getRowStyle]="getRowStyle"
+      rowSelection="multiple"
+      >
+    </ag-grid-angular>
+  </div>
+</div>

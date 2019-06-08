@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'align:center middle' to 'textAlign=center']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="9"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="8"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'MaskEdit' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="9"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="8"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'background:cornsilk' to 'background=cornsilk']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="10"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="9"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'color:#ff0000ff' to 'color=rgba(255,0,0,1)']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="10"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="9"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="10"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="9"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['useinputpanel' of 'Grid' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="11"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="10"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['firenextcount' of 'Dataset' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="45"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="44"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="74">
+        <context type="script" name="" line="39"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="73">
+        <context type="script" name="" line="38"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="74">
+        <context type="script" name="" line="40"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl" line="73">
+        <context type="script" name="" line="39"/>
+      </context>
+    </location>
+  </item>
+</migration>

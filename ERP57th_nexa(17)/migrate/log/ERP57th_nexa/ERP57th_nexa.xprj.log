@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xprj">
+  <item level="INFO">
+    <message><![CDATA['default_typedef.xml' value of url ' is changed to 'typedefintion.xml]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xprj" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xprj" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['globalvars.xml' value of url ' is changed to 'appvariables.xml]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xprj" line="0"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xprj" line="0"/>
+    </location>
+  </item>
+</migration>

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['classname' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['retry' of 'FileUpload' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['onload' of 'FileUpload' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'accessibility:enable all '테스트 입니다. ' '테스트 입니다. ' '테스트 입니다. '' to 'accessibilityenable=true']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'accessibility:enable all '테스트 입니다. ' '테스트 입니다. ' '테스트 입니다. '' to 'accessibilitydesclevel=all']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'accessibility:enable all '테스트 입니다. ' '테스트 입니다. ' '테스트 입니다. '' to 'accessibilityaction=테스트 입니다. ']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'accessibility:enable all '테스트 입니다. ' '테스트 입니다. ' '테스트 입니다. '' to 'accessibilitylabel=테스트 입니다. ']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'accessibility:enable all '테스트 입니다. ' '테스트 입니다. ' '테스트 입니다. '' to 'accessibilitydescription=테스트 입니다. ']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'FileUpload' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="7"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="6"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['retry' of 'FileDownload' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="8"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="7"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'accessibility:enable all '테스트 입니다. 2222222' '' ''' to 'accessibilityenable=true']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="9"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="8"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'accessibility:enable all '테스트 입니다. 2222222' '' ''' to 'accessibilitydesclevel=all']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="9"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="8"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'accessibility:enable all '테스트 입니다. 2222222' '' ''' to 'accessibilitylabel=테스트 입니다. 2222222']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="9"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="8"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Button' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="9"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="8"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['firenextcount' of 'Dataset' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="17"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="16"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['firenextcount' of 'Dataset' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="25"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="24"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA['firenextcount' of 'Dataset' is unknown property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="32"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl" line="31"/>
+    </location>
+  </item>
+</migration>

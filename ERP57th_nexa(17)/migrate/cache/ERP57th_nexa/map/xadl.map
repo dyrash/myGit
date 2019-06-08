@@ -1,0 +1,104 @@
+﻿{
+	"_map_name": "ERP57th_nexa.xadl",
+	"_ctx_name": "this",
+	"g_authorityCode": {
+		"prop_type": "value",
+		"value_type": "value"
+	},
+	"g_businessCode": {
+		"prop_type": "value",
+		"value_type": "value"
+	},
+	"g_deptCode": {
+		"prop_type": "value",
+		"value_type": "value"
+	},
+	"g_positionCode": {
+		"prop_type": "value",
+		"value_type": "value"
+	},
+	"g_empCode": {
+		"prop_type": "value",
+		"value_type": "value"
+	},
+	"g_empName": {
+		"prop_type": "value",
+		"value_type": "value"
+	},
+	"g_deptName": {
+		"prop_type": "value",
+		"value_type": "value"
+	},
+	"g_today": {
+		"prop_type": "value",
+		"value_type": "value"
+	},
+	"g_basicDay": {
+		"prop_type": "value",
+		"value_type": "value"
+	},
+	"g_baseYearMonth": {
+		"prop_type": "value",
+		"value_type": "value"
+	},
+	"g_education": {
+		"prop_type": "value",
+		"value_type": "value"
+	},
+	"gds_menu": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"gds_dustStatus": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"gds_code": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"gds_codeDetail": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"gds_dept": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"gds_employee": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"gds_company": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"gds_workplace": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"gds_position": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"gds_customer": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"gds_post": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"gds_baseYear": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"gds_seqNo": {
+		"prop_type": "value",
+		"value_type": "Dataset"
+	},
+	"mainframe": {
+		"prop_type": "value",
+		"value_type": "MainFrame"
+	}
+}

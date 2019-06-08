@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<migration version="1.0" category="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl">
+  <item level="INFO">
+    <message><![CDATA['<TypeDefinition>' tag is removed]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="3"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['left' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['top' of 'Form' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="4"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="3"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'border:3 solid darkgray' to 'border=3px solid darkgray']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="9"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="8"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'font:bold 16 함초롬돋움,돋움' to 'font=bold 16pt 함초롬돋움,돋움']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="9"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="8"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="9"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="8"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA[pseudo style is not support. instead, use css or theme.]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="18"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="17"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Edit' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="18"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="17"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA[pseudo style is not support. instead, use css or theme.]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="19"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="18"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'MaskEdit' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="19"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="18"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA[pseudo style is not support. instead, use css or theme.]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="20"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="19"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'MaskEdit' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="20"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="19"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA[pseudo style is not support. instead, use css or theme.]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="21"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="20"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'MaskEdit' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="21"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="20"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA[pseudo style is not support. instead, use css or theme.]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="22"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="21"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'MaskEdit' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="22"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="21"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA[pseudo style is not support. instead, use css or theme.]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="23"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="22"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'MaskEdit' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="23"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="22"/>
+    </location>
+  </item>
+  <item level="WARN">
+    <message><![CDATA[pseudo style is not support. instead, use css or theme.]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="24"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="23"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'MaskEdit' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="24"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="23"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'color:red' to 'color=red']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="29"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="28"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'align:left middle' to 'textAlign=left']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="29"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="28"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'align:left middle' to 'verticalAlign=middle']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="29"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="28"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA['style' of 'Static' is removed property]]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="29"/>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="28"/>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="59">
+        <context type="script" name="" line="23"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="58">
+        <context type="script" name="" line="23"/>
+      </context>
+    </location>
+  </item>
+  <item level="INFO">
+    <message><![CDATA[converted from 'application' to 'nexacro.getApplication()']]></message>
+    <location type="input">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="59">
+        <context type="script" name="" line="37"/>
+      </context>
+    </location>
+    <location type="output">
+      <context type="file" name="C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl" line="58">
+        <context type="script" name="" line="34"/>
+      </context>
+    </location>
+  </item>
+</migration>

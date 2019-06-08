@@ -1,0 +1,61 @@
+
+<ngb-timepicker [(ngModel)]="time" (click)="alertDiv()"></ngb-timepicker>
+<br/>
+  <div class="alert alert-warning" role="alert" style="display:none"  id="alert">24시간제로 작성하셔야 합니다.</div>
+
+
+<div class="row" style="margin-top:20px;">
+    <div class="col">
+      <div class="input-group">
+        <div class="input-group-btn">
+          <button type="button" class="btn btn-default  dropdown-toggle" data-toggle="dropdown" aria-expanded="false">근태구분
+            <span class="caret"></span></button>
+          <ul class="dropdown-menu" role="menu">
+            <li  *ngFor="let codeDetail of codeArray.codeDetailList">
+              <a ngbDropdownItem *ngIf="(codeDetail.detailCode=='ADC001')" (click)="setText(btn1.text,codeDetail.detailCode)" #btn1>{{codeDetail.detailCodeName}}</a></li>
+            <li *ngFor="let codeDetail of codeArray.codeDetailList">
+              <a ngbDropdownItem *ngIf="(codeDetail.detailCode=='ADC002')" (click)="setText(btn2.text,codeDetail.detailCode)" #btn2>{{codeDetail.detailCodeName}}</a></li>
+            <li *ngFor="let codeDetail of codeArray.codeDetailList">
+              <a ngbDropdownItem *ngIf="(codeDetail.detailCode=='ADC003')" (click)="setText(btn3.text,codeDetail.detailCode)" #btn3>{{codeDetail.detailCodeName}}</a></li>
+            <li *ngFor="let codeDetail of codeArray.codeDetailList">
+              <a ngbDropdownItem *ngIf="(codeDetail.detailCode=='ADC004')" (click)="setText(btn4.text,codeDetail.detailCode)" #btn4>{{codeDetail.detailCodeName}}</a></li>
+          </ul>
+        </div><!-- /btn-group -->
+        <input type="text"  class="form-control" [value]="detailCodeName" disabled="false">
+      </div><!-- /input-group -->
+    </div><!-- /.col-lg-6 -->
+
+        <div class="col">
+          <div class="input-group">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default  dropdown-toggle" data-toggle="dropdown" aria-expanded="false">기타수당
+                <span class="caret"></span></button>
+              <ul class="dropdown-menu" role="menu">
+                <li  *ngFor="let etcSudang of sudangArray.etcSudangList">
+                  <a ngbDropdownItem *ngIf="(etcSudang.etcSalCode=='ETS001')" (click)="setSundang(Sbtn1.text,etcSudang.etcSalPrice)" #Sbtn1>{{etcSudang.etcSalName}}</a></li>
+                <li *ngFor="let etcSudang of sudangArray.etcSudangList">
+                  <a ngbDropdownItem *ngIf="(etcSudang.etcSalCode=='ETS002')" (click)="setSundang(Sbtn2.text,etcSudang.etcSalPrice)" #Sbtn2>{{etcSudang.etcSalName}}</a></li>
+                <li *ngFor="let etcSudang of sudangArray.etcSudangList">
+                  <a ngbDropdownItem *ngIf="(etcSudang.etcSalCode=='ETS003')" (click)="setSundang(Sbtn3.text,etcSudang.etcSalPrice)" #Sbtn3>{{etcSudang.etcSalName}}</a></li>
+                <li *ngFor="let etcSudang of sudangArray.etcSudangList">
+                  <a ngbDropdownItem *ngIf="(etcSudang.etcSalCode=='ETS004')" (click)="setSundang(Sbtn4.text,etcSudang.etcSalPrice)" #Sbtn4>{{etcSudang.etcSalName}}</a></li>
+              </ul>
+            </div><!-- /btn-group -->
+            <input type="text"  class="form-control" [value]="etcSalName" disabled="false">
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+
+            <div class="col">
+              <div class="input-group">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-default" aria-expanded="false">신청사유
+                    <span class="caret"></span>
+                  </button>
+                </div><!-- /btn-group -->
+                <input type="text"  class="form-control"  placeholder="CAUSE" [(ngModel)]="cause">
+              </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+
+        <button type="button" class="btn btn-secondary" (click)="addDailyAttd(time)" >등록</button>
+
+    </div>

@@ -1,0 +1,247 @@
+<!-- main app container -->
+<div class="jumbotron" style="margin-left:20%; margin-right:20%">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+          <div class="form-group">
+            <label>지부선택</label>
+            <div class="input-group mb-3" style="margin-left:0%; margin-right:10%; margin-bottom:1% ">
+              <input type="text" name="placeCode" formControlName="placeCode" class="form-control" aria-describedby="button-addon1">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button" id="button-addon1" (click)="findPlaceCode()"
+                  data-toggle="modal" data-target="#businessPlaceCodeModal">Search</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="businessPlaceCodeModal" tabindex="-1" role="dialog"
+                  aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Business Place Code</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" #closeAddExpenseModal>
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <ag-grid-angular style="width: auto; height: 300px;" class="ag-theme-balham"
+                          [rowData]="dataArray.businessPlaceList" [columnDefs]="businessColumnDefs">
+                        </ag-grid-angular>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+              <label>부서선택</label>
+              <div class="input-group mb-3" style="margin-left:0%; margin-right:10%; margin-bottom:1% ">
+                <input type="text" name="deptCode" formControlName="deptCode" class="form-control" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-primary" type="button" id="button-addon2" (click)="findDeptCode()"
+                    data-toggle="modal" data-target="#deptCodeModal">Search</button>
+  
+                  <!-- Modal -->
+                  <div class="modal fade" id="deptCodeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Department Code</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close" #closeAddExpenseModal2>
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                              <ag-grid-angular
+                              style="width: auto; height: 300px;" 
+                              class="ag-theme-balham"
+                              [rowData]="dataArray.allDeptList" 
+                              [columnDefs]="deptColumnDefs"
+                            >
+                            </ag-grid-angular>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+          <div class="form-group">
+            <label>사원번호</label>
+            <input type="text" name="addr" [(ngModel)]="empNo" formControlName="employeeNo" class="form-control" />
+       
+          </div>
+          <div class="form-group">
+            <label>비밀번호</label>
+            <input type="password" name="tel" formControlName="password" class="form-control" />
+          </div>
+          <div class="form-group">
+            <button class="btn btn-lg btn-block btn-primary"><i class="fa fa-floppy-o"></i> LOGIN</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 
+  <form class="emp-form" #memberForm="ngForm">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <input class="form-control" name="id" #Id="ngModel" [(ngModel)]="memberId" placeholder="ID" required>
+        <div class="validation-error" *ngIf="Id.invalid && Id.touched">This Field is Required</div>
+      </div>
+      <div class="form-group col-md-6">
+        <input class="form-control" name="pw" #Pw="ngModel" [(ngModel)]="memberPw" placeholder="PW" required>
+        <div class="validation-error" *ngIf="Pw.invalid && Pw.touched">This Field is Required</div>
+      </div>
+    </div>
+    <div class="form-group">
+      <input class="form-control" name="addr" #Addr="ngModel" [(ngModel)]="memberAddr" placeholder="ADDRESS">
+    </div>
+    <div class="form-group">
+      <input class="form-control" name="tel" #Tel="ngModel" [(ngModel)]="memberTel" placeholder="TEL">
+      </div>
+      <div class="form-row">
+          <div class="form-group col-md-8">
+            <button [disabled]="!memberForm.valid" type="submit" class="btn btn-lg btn-block btn-info" (click)="submit()"><i class="fa fa-floppy-o"></i> Submit</button>
+          </div>
+          <div class="form-group col-md-4">
+            <button type="button" class="btn btn-lg btn-block btn-secondary" (click)="resetForm(memberForm)"><i class="fa fa-repeat"></i> Reset</button>
+          </div>
+        </div>
+    </form> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <form #form="ngForm">
+<div class="container"> -->
+<!-- #loginForm="ngForm" -->
+<!-- <div class="jumbotron" style="margin-left:20%; margin-right:20%">
+
+    <div class="form-group">
+      <div class="input-group mb-3" style="margin-left:0%; margin-right:10%; margin-bottom:1% ">
+        <input type="text" class="form-control" name="placeCode" placeholder="PLACE-CODE" [(ngModel)]="placeCode" #pCode="ngModel"
+          aria-describedby="button-addon1">
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button" id="button-addon1" (click)="findPlaceCode()" data-toggle="modal"
+            data-target="#businessPlaceCodeModal">Search</button>
+        </div> -->
+<!-- Modal -->
+<!-- <div class="modal fade" id="businessPlaceCodeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Business Place Code</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <ag-grid-angular
+                  style="width: auto; height: 300px;" 
+                  class="ag-theme-balham"
+                  [rowData]="dataArray.businessPlaceList" 
+                  [columnDefs]="businessColumnDefs"
+                >
+                </ag-grid-angular>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="input-group mb-3" style="margin-left:0%; margin-right:10%; margin-bottom:1% ">
+        <input type="text" class="form-control" name="deptCode" placeholder="DEPT-CODE" [(ngModel)]="deptCode" #dCode="ngModel"
+          aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button" id="button-addon2" (click)="findDeptCode()" data-toggle="modal"
+          data-target="#deptCodeModal">Search</button>
+        </div> -->
+<!-- Modal -->
+<!-- <div class="modal fade" id="deptCodeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Department Code</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <ag-grid-angular
+                    style="width: auto; height: 300px;" 
+                    class="ag-theme-balham"
+                    [rowData]="dataArray.allDeptList" 
+                    [columnDefs]="deptColumnDefs"
+                  >
+                  </ag-grid-angular>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div style="margin-bottom:3% ">
+        <input class="form-control" name="empCode" placeholder="ID" required>
+      </div>
+      <div style="margin-bottom:10% ">
+        <input type="password" class="form-control" name="pw" placeholder="PASSWORD" required>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-8">
+        <button class="btn btn-lg btn-block btn-success" (click)="login()">Login</button>
+      </div>
+      <div class="form-group col-md-4">
+        <button class="btn btn-lg btn-block btn-danger" (click)="resetForm()">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+</form> -->
+
+<!-- <div>
+    <app-business-place-code></app-business-place-code>
+</div> -->
+<!-- </form> -->
+<!-- <ag-grid-angular
+  style="width: 800px; height: 500px;" 
+  class="ag-theme-balham"
+  [rowData]="" 
+  [columnDefs]="columnDefs"
+>
+
+</ag-grid-angular> -->

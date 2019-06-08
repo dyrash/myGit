@@ -1,0 +1,37 @@
+<ag-grid-angular 
+  #mrpGatheringGrid
+  style="width: 1300px; height: 500px; " 
+  class="ag-theme-balham"
+  [rowData]=mrpGatheringList
+  [columnDefs]="mrpGatheringColumnDefs"
+  [getRowStyle]="getRowStyle"
+  rowSelection="multiple"
+ 
+   >
+</ag-grid-angular>
+<ag-grid-angular 
+  #workInstructionGrid
+  style="width: 1300px; height: 500px; " 
+  class="ag-theme-balham"
+  [rowData]=workInstruction
+  [columnDefs]="workInstructionColumnDefs"
+  [getRowStyle]="getRowStyle"
+  rowSelection="multiple"
+   >
+</ag-grid-angular>
+
+<ng-template #content let-modal>
+  <h5 class="modal-title" id="exampleModalLabel">재고수량확인</h5>
+  <div class="modal-header">
+      <ag-grid-angular 
+      #materialCheckGrid
+      style="width: 470px; height: 400px; " 
+      class="ag-theme-balham"
+      [rowData]=materialCheckTemp
+      [columnDefs]="materialCheckGridColumnDefs"
+      [getRowStyle]="getRowStyle"
+      rowSelection="multiple"
+       >
+    </ag-grid-angular>
+  </div>
+</ng-template>

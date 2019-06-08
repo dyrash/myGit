@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.co.seoulit.sys.dao.MenuDAO">
+
+<!-- menuDAO -->
+
+	<resultMap type="menuTO" id="menuResult">
+
+	<result property="menuCode" column="MENU_CODE"/>
+	<result property="superMenuCode" column="SUPER_MENU_CODE"/>
+	<result property="menuName" column="MENU_NAME"/>
+	<result property="menuUrl" column="MENU_URL"/>
+	<result property="usingStatus" column="USING_STATUS"/>
+	<result property="level" column="LEVEL"/>
+	<collection property="menuListLv2" select="kr.co.seoulit.sys.dao.MenuDAO.selectMenuList2" column="MENU_CODE"/>
+
+	</resultMap>
+
+	<resultMap type="menuTO" id="sideMenuResult">
+
+	<result property="menuCode" column="MENU_CODE"/>
+	<result property="superMenuCode" column="SUPER_MENU_CODE"/>
+	<result property="label" column="MENU_NAME"/>
+	<result property="link" column="MENU_URL"/>
+	<result property="usingStatus" column="USING_STATUS"/>
+	<result property="level" column="LEVEL"/>
+    <collection property="items" select="kr.co.seoulit.sys.dao.MenuDAO.selectMenuList2" column="MENU_CODE"/>
+	</resultMap>
+
+
+	<resultMap type="menuTO" id="menuResult2">
+
+	<result property="menuCode" column="MENU_CODE"/>
+	<result property="superMenuCode" column="SUPER_MENU_CODE"/>
+	<result property="label" column="MENU_NAME"/>
+	<result property="link" column="MENU_URL"/>
+	<result property="usingStatus" column="USING_STATUS"/>
+	<result property="level" column="LEVEL"/>
+    <collection property="items" select="kr.co.seoulit.sys.dao.MenuDAO.selectMenuList3" column="MENU_CODE"/>
+	</resultMap>
+
+	<resultMap type="menuTO" id="menuResult3">
+
+	<result property="menuCode" column="MENU_CODE"/>
+	<result property="superMenuCode" column="SUPER_MENU_CODE"/>
+	<result property="label" column="MENU_NAME"/>
+	<result property="link" column="MENU_URL"/>
+	<result property="usingStatus" column="USING_STATUS"/>
+	<result property="level" column="LEVEL"/>
+
+	</resultMap>
+
+     	<select id="selectMenuList" resultMap="menuResult">
+
+
+
+		SELECT
+
+				MENU_CODE,
+
+				SUPER_MENU_CODE,
+
+				MENU_NAME,
+
+				TRIM(MENU_URL) as MENU_URL,
+
+    			USING_STATUS,
+
+				LEVEL
+
+		FROM MENU_ANGULAR
+
+
+
+		START WITH SUPER_MENU_CODE IS NULL
+
+		CONNECT BY PRIOR MENU_CODE=SUPER_MENU_CODE
+
+
+
+	</select>
+
+ 	<select id="selectSideMenuList" resultMap="sideMenuResult">
+
+		SELECT
+				MENU_CODE,
+				SUPER_MENU_CODE,
+				MENU_NAME,
+				TRIM(MENU_URL) as MENU_URL,
+    			USING_STATUS,
+				LEVEL
+		FROM MENU_ANGULAR
+        where level=1
+		START WITH SUPER_MENU_CODE IS NULL
+		CONNECT BY PRIOR MENU_CODE=SUPER_MENU_CODE
+
+	</select>
+
+ 	<select id="selectMenuList2" resultMap="menuResult2" parameterType="String">
+
+		SELECT
+				MENU_CODE,
+				SUPER_MENU_CODE,
+				MENU_NAME,
+                DECODE(SUPER_MENU_CODE,'AA01','main/'||TRIM(MENU_URL),TRIM(MENU_URL)) as MENU_URL,
+    			USING_STATUS,
+				LEVEL
+		FROM MENU_ANGULAR
+        where level=2 and SUPER_MENU_CODE=#{menuCode}
+		START WITH SUPER_MENU_CODE IS NULL
+		CONNECT BY PRIOR MENU_CODE=SUPER_MENU_CODE
+
+</select>
+
+
+ 	<select id="selectMenuList3" resultMap="menuResult3">
+
+		SELECT
+				MENU_CODE,
+				SUPER_MENU_CODE,
+				MENU_NAME,
+				'main/'||TRIM(MENU_URL) as MENU_URL,
+    			USING_STATUS,
+				LEVEL
+		FROM MENU_ANGULAR
+        where level=3 and SUPER_MENU_CODE=#{menuCode}
+		START WITH SUPER_MENU_CODE IS NULL
+		CONNECT BY PRIOR MENU_CODE=SUPER_MENU_CODE
+
+	</select>
+
+
+</mapper>

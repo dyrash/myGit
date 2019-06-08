@@ -1,0 +1,47 @@
+<button class="btn btn-info" (click)="batchDelivery()">저장</button>
+<table><tr><td>
+<ag-grid-angular 
+  #contractGrid
+  style="width: 650px; height: 300px; " 
+  class="ag-theme-balham"
+  [rowData]=contractArray
+  [columnDefs]="contractColumnDefs"
+  rowSelection="single"
+  (rowClicked)="onContractCellClick($event)"
+   >
+</ag-grid-angular></td>
+<td>
+<ag-grid-angular 
+  #contractDetailGrid
+  style="width: 650px; height: 300px; " 
+  class="ag-theme-balham"
+  [columnDefs]="contractDetailColumnDefs"
+  rowSelection="single"
+  (rowClicked)="onDetailCellClick($event)"
+  animateRows=true
+   >
+</ag-grid-angular></td></tr>
+</table>
+
+<table><tr><td>
+        <ag-grid-angular 
+          #stockGrid
+          style="width: 650px; height: 300px; " 
+          class="ag-theme-balham"
+          [rowData]=stockArray
+          [columnDefs]="stockColumnDefs"
+          rowSelection="single"
+           >
+        </ag-grid-angular></td>
+        <td>
+        <ag-grid-angular 
+          #deliveryGrid
+          style="width: 650px; height: 300px; " 
+          class="ag-theme-balham"
+          [rowData]=deliveryList
+          [columnDefs]="deliveryColumnDefs"
+          rowSelection="single"
+           >
+        </ag-grid-angular></td></tr>
+        </table>
+       

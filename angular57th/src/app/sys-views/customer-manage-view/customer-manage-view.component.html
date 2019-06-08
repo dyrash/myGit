@@ -1,0 +1,50 @@
+<div id="outdiv">
+  <h1>ts</h1>
+<h3>[변수전송테스트]</h3><br />
+
+<!-- {{businessCode}}
+
+  <mat-form-field>
+      <mat-label>사업장</mat-label>
+  <input matNativeControl id="businessCode" type="text" [(ngModel)]="businessCode"/>
+</mat-form-field><br />
+
+<mat-form-field>
+  <mat-label>부서코드</mat-label>
+
+  <input matNativeControl id="deptCode" [(ngModel)]="deptCode"/>
+</mat-form-field><br />
+<mat-form-field>
+  <mat-label>사원번호</mat-label>
+  <input matNativeControl [(ngModel)]="empno"/>
+</mat-form-field><br/>
+<mat-form-field>
+<mat-label>비밀번호</mat-label>
+  <input matNativeControl [(ngModel)]="pw"/>
+</mat-form-field><br />
+<button type="submit" mat-button>submit</button>
+
+
+<mat-button-toggle (click)="sendVariable()">변수전송</mat-button-toggle>
+
+</div> -->
+
+<ag-grid-angular 
+  #agGrid
+  style="width: 1000px; height: 500px; " 
+  class="ag-theme-balham"
+  [rowData]=dataArray2.codeList
+  [columnDefs]="columnDefs"
+  [getRowStyle]="getRowStyle"
+  rowSelection="multiple"
+   >
+</ag-grid-angular>
+<button (click)="getSelectedRows()">Get Selected Rows</button>
+<button (click)="addRows()">addRows</button>
+<button (click)="editRow()">editRows</button>
+<button (click)="deleteRow()">deleteRow</button>
+<button (click)="redux()">리덕스전송</button>
+
+
+
+

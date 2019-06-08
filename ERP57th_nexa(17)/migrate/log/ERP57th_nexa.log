@@ -1,0 +1,425 @@
+﻿<migration version="1.0" category="ERP57th_nexa">
+<item level="INFO">
+	<message><![CDATA[complete create file 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\environment.xml']]></message>
+</item>
+<item level="INFO">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xprj' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xprj']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\ERP57th_nexa.xprj.log"/>
+</item>
+<item level="INFO">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\default_typedef.xml' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\typedefintion.xml']]></message>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\globalvars.xml' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\appvariables.xml']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\globalvars.xml.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\ERP57th_nexa.xadl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\ERP57th_nexa.xadl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\ERP57th_nexa.xadl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\default_CUSTOM.xtheme' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\_resource_\_theme_\default_CUSTOM\theme.xcss']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\default_CUSTOM.xtheme.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\businessDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\businessDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\businessDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\customerDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\customerDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\customerDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\deptDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\deptDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\deptDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\employeeDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\employeeDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\employeeDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\financialCustomerDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\financialCustomerDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\financialCustomerDialog.xfdl.log"/>
+</item>
+<item level="INFO">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\loginForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\loginForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\loginForm.xfdl.log"/>
+</item>
+<item level="INFO">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\mainForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainMenuForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainMenuForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\mainMenuForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainTopForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainTopForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\mainTopForm.xfdl.log"/>
+</item>
+<item level="INFO">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\mainView.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\mainView.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\mainView.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_autholrityManagementForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\sys_autholrityManagementForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_businessPlaceForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_businessPlaceForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\sys_businessPlaceForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_codeManagerForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_codeManagerForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\sys_codeManagerForm.xfdl.log"/>
+</item>
+<item level="INFO">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_companyRegistrationForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_companyRegistrationForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\sys_companyRegistrationForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_customerManagerForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_customerManagerForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\sys_customerManagerForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\sys_deptManagerForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\sys_deptManagerForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\sys_deptManagerForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\universityDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\universityDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\universityDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\warehouseDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\warehouseDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\warehouseDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\Base\zipCodeDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\Base\zipCodeDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\Base\zipCodeDialog.xfdl.log"/>
+</item>
+<item level="INFO">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\adjustSlipDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\adjustSlipDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\test\adjustSlipDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\basicWorktimeManagement.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\basicWorktimeManagement.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\test\basicWorktimeManagement.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\deductionTaxForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\deductionTaxForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\test\deductionTaxForm.xfdl.log"/>
+</item>
+<item level="INFO">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\test\test.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\test\test1_copy_copy.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\test\test1_copy_copy.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\test\test1_copy_copy.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_allowanceDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_allowanceDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\pay\hr_allowanceDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_payCalculateForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\pay\hr_payCalculateForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_slipDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_slipDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\pay\hr_slipDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pay\hr_slipForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pay\hr_slipForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\pay\hr_slipForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_annualLeaveManagementForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_annualLeaveManagementForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\circumstance\hr_annualLeaveManagementForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_basicWorktimeManagementForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\circumstance\hr_basicWorktimeManagementForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_deductionTaxForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_deductionTaxForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\circumstance\hr_deductionTaxForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_HolidayManagementForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_HolidayManagementForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\circumstance\hr_HolidayManagementForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_PayDeductionForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_PayDeductionForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\circumstance\hr_PayDeductionForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_payStepManagementForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_payStepManagementForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\circumstance\hr_payStepManagementForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_salMgnForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_salMgnForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\circumstance\hr_salMgnForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\circumstance\hr_SalPaymentDateForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\circumstance\hr_SalPaymentDateForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\circumstance\hr_SalPaymentDateForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pm\hr_bankDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pm\hr_bankDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\pm\hr_bankDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pm\hr_deptDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pm\hr_deptDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\pm\hr_deptDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pm\hr_HmIfmElm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pm\hr_HmIfmElm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\pm\hr_HmIfmElm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pm\hr_HmIfmElmDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pm\hr_HmIfmElmDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\pm\hr_HmIfmElmDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pm\hr_HmIfmRfrcDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pm\hr_HmIfmRfrcDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\pm\hr_HmIfmRfrcDialog.xfdl.log"/>
+</item>
+<item level="INFO">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pm\hr_HmRcdCd.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pm\hr_HmRcdCd.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\pm\hr_HmRcdCd.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\pm\hr_positionDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\pm\hr_positionDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\pm\hr_positionDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_AnnualApplicationForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_AnnualApplicationForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\attendance\hr_AnnualApplicationForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_attdApprovalManagementForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_attdApprovalManagementForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\attendance\hr_attdApprovalManagementForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdManagementForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdManagementForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\attendance\hr_DailyAttdManagementForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\attendance\hr_DailyAttdRestApplicationForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_DailyAttendanceApplicationForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_DailyAttendanceApplicationForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\attendance\hr_DailyAttendanceApplicationForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_MonthlyAttdanceManagementForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_MonthlyAttdanceManagementForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\attendance\hr_MonthlyAttdanceManagementForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_OverNightApplicationForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_OverNightApplicationForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\attendance\hr_OverNightApplicationForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnApprovedDailyAttdDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_UnApprovedDailyAttdDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\attendance\hr_UnApprovedDailyAttdDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\attendance\hr_UnCloseDailyAttdDialog.xfdl.log"/>
+</item>
+<item level="INFO">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\adjustSlipDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\adjustSlipDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\business\adjustSlipDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_ContractForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_ContractForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\business\logi_ContractForm.xfdl.log"/>
+</item>
+<item level="INFO">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_ContractPDF.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_ContractPDF.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\business\logi_ContractPDF.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\business\logi_DeliveryForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_DeliveryResultForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_DeliveryResultForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\business\logi_DeliveryResultForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_EstimateDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_EstimateDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\business\logi_EstimateDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_EstimateForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_EstimateForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\business\logi_EstimateForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_slipDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_slipDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\business\logi_slipDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\business\logi_slipForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\business\logi_slipForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\business\logi_slipForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\logi_MPSForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\logi_MPSForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\production\logi_MPSForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\logi_MRPForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\logi_MRPForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\production\logi_MRPForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\logi_ProductionHandlingForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\logi_ProductionHandlingForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\production\logi_ProductionHandlingForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\logi_WorkinstructionForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\logi_WorkinstructionForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\production\logi_WorkinstructionForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MaterialCheckDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MaterialCheckDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\production\MaterialCheckDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\production\MrpDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\production\MrpGatheringDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\production\MrpGatheringDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\production\MrpGatheringDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_BOMForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_BOMForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\purchase\logi_BOMForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_deliveryHistoryDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_deliveryHistoryDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\purchase\logi_deliveryHistoryDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_GiveOrderForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\purchase\logi_GiveOrderForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_InventoryForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_InventoryForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\purchase\logi_InventoryForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_InventoryHistoryDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_InventoryHistoryDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\purchase\logi_InventoryHistoryDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_ItemDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_ItemDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\purchase\logi_ItemDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_ItemForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_ItemForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\purchase\logi_ItemForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_OrderGatheringDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_OrderGatheringDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\purchase\logi_OrderGatheringDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\logi\purchase\logi_WarehousingForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\logi\purchase\logi_WarehousingForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\base\acc_accountDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\base\acc_accountDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\base\acc_accountDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\base\acc_subManagementForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\base\acc_subManagementForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\base\acc_subManagementForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\accBookMgt\201712-A05-00035-FileUpload_append.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\accountant.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\accountant.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\accBookMgt\accountant.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\acc_customersLedgerForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\acc_customersLedgerForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\accBookMgt\acc_customersLedgerForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\acc_journalForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\acc_journalForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\accBookMgt\acc_journalForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\accBookMgt\customersLedgerForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\accBookMgt\customersLedgerForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\accBookMgt\customersLedgerForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_journalDetailDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_journalDetailDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\slip\acc_journalDetailDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipApproveForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\slip\acc_slipApproveForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\slip\acc_slipRegistForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\slip\acc_slipRegistForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\slip\acc_slipRegistForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\statement\acc_financialStatementForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\statement\acc_financialStatementForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\statement\acc_financialStatementForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\statement\acc_incomeStatementForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\statement\acc_incomeStatementForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\statement\acc_incomeStatementForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\statement\acc_preFinancialStatementForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\statement\acc_preFinancialStatementForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\statement\acc_preFinancialStatementForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\statement\acc_preIncomeStatementForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\statement\acc_preIncomeStatementForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\statement\acc_preIncomeStatementForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\acc\statement\acc_totalTrialBalanceForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\acc\statement\acc_totalTrialBalanceForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\acc\statement\acc_totalTrialBalanceForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_AppointmentCodeDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_AppointmentCodeDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\appointment\hr_AppointmentCodeDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_AppointmentDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_AppointmentDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\appointment\hr_AppointmentDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_AppointmentForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_AppointmentForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\appointment\hr_AppointmentForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmenDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\appointment\hr_PersonalAppointmenDialog.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_PersonalAppointmentForm.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_PersonalAppointmentForm.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\appointment\hr_PersonalAppointmentForm.xfdl.log"/>
+</item>
+<item level="WARN">
+	<message><![CDATA[complete convert file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\hr\appointment\hr_TempAppointmentDialog.xfdl' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\hr\appointment\hr_TempAppointmentDialog.xfdl']]></message>
+	<reference title="Detail Log" url=".\ERP57th_nexa\hr\appointment\hr_TempAppointmentDialog.xfdl.log"/>
+</item>
+<item level="INFO">
+	<message><![CDATA[complete copy file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\images\20190221_190825300.jpg' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\images\20190221_190825300.jpg']]></message>
+</item>
+<item level="INFO">
+	<message><![CDATA[complete copy file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\images\testImage.png' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\images\testImage.png']]></message>
+</item>
+<item level="INFO">
+	<message><![CDATA[complete copy file 'C:\Users\seunghyeon_seoul\Desktop\원장님노트북\57기 Nexacro\ERP57th\images\yumyum.gif' to 'C:\Users\seunghyeon_seoul\Documents\nexacro\17\projects\ERP57th_nexa\images\yumyum.gif']]></message>
+</item>
+</migration>

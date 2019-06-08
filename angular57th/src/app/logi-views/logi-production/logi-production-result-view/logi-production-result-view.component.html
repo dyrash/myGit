@@ -1,0 +1,37 @@
+<div [@toggle]="stateName">
+  
+<ngb-datepicker #dp (select)="onDateSelection($event)" [displayMonths]="2" [dayTemplate]="t" outsideDays="hidden"  [hidden]="!datePickerCheck">
+  </ngb-datepicker>
+  <img class="img-tag" src="assets/images/msms.gif"  [hidden]="!datePickerCheck"/>
+<ng-template #t let-date let-focused="focused">
+  <span class="custom-day"
+        [class.focused]="focused"
+        [class.range]="isRange(date)"
+        [class.faded]="isHovered(date) || isInside(date)"
+        (mouseenter)="hoveredDate = date"
+        (mouseleave)="hoveredDate = null">
+    {{ date.day }}
+  </span>
+</ng-template>
+</div>
+<br>
+<button class="btn btn-info" (click)="registPrm()">생산실적등록</button>
+<mat-slide-toggle #datePicker  (change)="dateSlide_OnClick($event)">달력열기</mat-slide-toggle>
+<ag-grid-angular 
+  #workInstruction_grid
+  style="width: 1000px; height: 300px; " 
+  class="ag-theme-balham"
+  [rowData]=workInstructionArray.workInstructionList
+  [columnDefs]="workInstructionColumnDefs"
+  rowSelection="multiple"
+   >
+</ag-grid-angular><br>
+<button class="btn btn-info" (click)="findPrm()">생산실적 조회</button>
+<ag-grid-angular 
+  #prm_grid
+  style="width: 1000px; height: 300px; " 
+  class="ag-theme-balham"
+  [rowData]=prmArray.prmList
+  [columnDefs]="prmColumnDefs"
+   >
+</ag-grid-angular>

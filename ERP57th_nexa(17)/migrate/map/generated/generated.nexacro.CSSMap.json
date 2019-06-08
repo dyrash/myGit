@@ -1,0 +1,8397 @@
+﻿{
+	"types": {
+		"Form": {
+			"childs": {
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"stepalign": {
+					"prop_type": "position",
+					"value_type": "Style_align"
+				},
+				"stepshowtype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"ChildFrame": {
+			"childs": {
+				"statusbar": {
+					"prop_type": "id",
+					"value_type": "StatusBarControl"
+				},
+				"titlebar": {
+					"prop_type": "id",
+					"value_type": "TitleBarControl"
+				}
+			},
+			"declaration": {
+				"overlaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_value"
+				},
+				"icon": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"statusbarheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"titlebarheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"FrameSet": {
+			"childs": {
+				"statusbar": {
+					"prop_type": "id",
+					"value_type": "StatusBarControl"
+				},
+				"titlebar": {
+					"prop_type": "id",
+					"value_type": "TitleBarControl"
+				}
+			},
+			"declaration": {
+				"minimizewidth": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"minimizeheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"icon": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"statusbarheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"titlebarheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"overlaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"HFrameSet": {
+			"childs": {
+				"statusbar": {
+					"prop_type": "id",
+					"value_type": "StatusBarControl"
+				},
+				"titlebar": {
+					"prop_type": "id",
+					"value_type": "TitleBarControl"
+				}
+			},
+			"declaration": {
+				"icon": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"statusbarheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"titlebarheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"overlaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"MainFrame": {
+			"childs": {
+				"statusbar": {
+					"prop_type": "id",
+					"value_type": "StatusBarControl"
+				},
+				"titlebar": {
+					"prop_type": "id",
+					"value_type": "TitleBarControl"
+				}
+			},
+			"declaration": {
+				"menubarheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"icon": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"statusbarheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"titlebarheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"overlaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"TileFrameSet": {
+			"childs": {
+				"statusbar": {
+					"prop_type": "id",
+					"value_type": "StatusBarControl"
+				},
+				"titlebar": {
+					"prop_type": "id",
+					"value_type": "TitleBarControl"
+				}
+			},
+			"declaration": {
+				"icon": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"statusbarheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"titlebarheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"overlaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"VFrameSet": {
+			"childs": {
+				"statusbar": {
+					"prop_type": "id",
+					"value_type": "StatusBarControl"
+				},
+				"titlebar": {
+					"prop_type": "id",
+					"value_type": "TitleBarControl"
+				}
+			},
+			"declaration": {
+				"icon": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"statusbarheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"titlebarheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"overlaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"ScrollBar": {
+			"childs": {
+				"decbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"incbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"trackbar": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"barminsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"baroutsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"incbtnsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"decbtnsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"imgoutsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"scrollbarsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"trackbarsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"ScrollBarControl": {
+			"childs": {
+				"decbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"incbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"trackbar": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"barminsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"baroutsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"incbtnsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"decbtnsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"imgoutsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"scrollbarsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"trackbarsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"VScrollBar": {
+			"childs": {
+				"decbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"incbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"trackbar": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"barminsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"baroutsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"incbtnsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"decbtnsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"imgoutsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"scrollbarsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"trackbarsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"VScrollBarControl": {
+			"childs": {
+				"decbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"incbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"trackbar": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"barminsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"baroutsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"incbtnsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"decbtnsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"imgoutsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"scrollbarsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"trackbarsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"HScrollBar": {
+			"childs": {
+				"decbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"incbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"trackbar": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"barminsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"baroutsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"incbtnsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"decbtnsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"imgoutsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"scrollbarsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"trackbarsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"HScrollBarControl": {
+			"childs": {
+				"decbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"incbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"trackbar": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"barminsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"baroutsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"incbtnsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"decbtnsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"imgoutsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"scrollbarsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"trackbarsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Button": {
+			"childs": {},
+			"declaration": {
+				"image": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"imagealign": {
+					"prop_type": "imagetextalign",
+					"value_type": "Style_align"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"ButtonControl": {
+			"childs": {},
+			"declaration": {
+				"image": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"imagealign": {
+					"prop_type": "imagetextalign",
+					"value_type": "Style_align"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Calendar": {
+			"childs": {
+				"calendaredit": {
+					"prop_type": "id",
+					"value_type": "MaskEdit"
+				},
+				"dropbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"popupcalendar": {
+					"prop_type": "id",
+					"value_type": "DatePicker"
+				},
+				"spindownbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"spinupbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"daysize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"daycolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"popupsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"usetrailingday": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"trailingdaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"buttonsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"viewyearspin": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"viewmonthspin": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"daybackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"popupbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"dayborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"popupborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"daybordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"popupbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"daygradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"popupgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"dayfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"popupfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"itemaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"popuptype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"popupalign": {
+					"prop_type": "position",
+					"value_type": "Style_value"
+				},
+				"displaynulltextcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"CalendarControl": {
+			"childs": {
+				"calendaredit": {
+					"prop_type": "id",
+					"value_type": "MaskEdit"
+				},
+				"dropbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"popupcalendar": {
+					"prop_type": "id",
+					"value_type": "DatePicker"
+				},
+				"spindownbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"spinupbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"daysize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"daycolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"popupsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"usetrailingday": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"trailingdaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"buttonsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"viewyearspin": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"viewmonthspin": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"daybackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"popupbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"dayborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"popupborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"daybordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"popupbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"daygradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"popupgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"dayfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"popupfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"itemaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"popuptype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"popupalign": {
+					"prop_type": "position",
+					"value_type": "Style_value"
+				},
+				"displaynulltextcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"CheckBox": {
+			"childs": {},
+			"declaration": {
+				"buttonalign": {
+					"prop_type": "imagealign",
+					"value_type": "Style_align"
+				},
+				"buttonimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"textpadding": {
+					"prop_type": "textpadding",
+					"value_type": "Style_padding"
+				},
+				"buttonborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"buttonbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"buttonsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"buttonbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"buttongradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"buttonbackgroundimagemode": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"CheckBoxControl": {
+			"childs": {},
+			"declaration": {
+				"buttonalign": {
+					"prop_type": "imagealign",
+					"value_type": "Style_align"
+				},
+				"buttonimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"textpadding": {
+					"prop_type": "textpadding",
+					"value_type": "Style_padding"
+				},
+				"buttonborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"buttonbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"buttonsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"buttonbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"buttongradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"buttonbackgroundimagemode": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Combo": {
+			"childs": {
+				"comboedit": {
+					"prop_type": "id",
+					"value_type": "Edit"
+				},
+				"combolist": {
+					"prop_type": "id",
+					"value_type": "ListBox"
+				},
+				"dropbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"buttonsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"displaynulltextcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"itemaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"itemgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"itembackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"itemcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"itemborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"itembordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"itemfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"itemheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"itempadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"popuptype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"ComboControl": {
+			"childs": {
+				"comboedit": {
+					"prop_type": "id",
+					"value_type": "Edit"
+				},
+				"combolist": {
+					"prop_type": "id",
+					"value_type": "ListBox"
+				},
+				"dropbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"buttonsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"displaynulltextcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"itemaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"itemgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"itembackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"itemcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"itemborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"itembordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"itemfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"itemheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"itempadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"popuptype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"DatePicker": {
+			"childs": {
+				"monthspin": {
+					"prop_type": "id",
+					"value_type": "Spin"
+				},
+				"nextbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"prevbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"yearspin": {
+					"prop_type": "id",
+					"value_type": "Spin"
+				}
+			},
+			"declaration": {
+				"ncpadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"usetrailingday": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"headerformat": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"weekformat": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"daysize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"daycolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"daybackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"daygradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"dayborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"daybordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"dayfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"headerheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"headercolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"headerbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"headergradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"headerbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"headerborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"headerfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"bodybackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"bodygradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"bodybordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"bodyborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"weekcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"weekbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"weekgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"weekfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"saturdaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"sundaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"todaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"trailingdaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"viewyearspin": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"viewmonthspin": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"todaybackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"todaygradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"todayborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"todaybordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"todayfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"saturdaybackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"saturdaygradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"saturdayborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"saturdaybordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"saturdayfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"sundaybackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"sundaygradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"sundayborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"sundaybordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"sundayfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"trailingdaybackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"trailingdaygradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"trailingdayborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"trailingdaybordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"trailingdayfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"DatePickerControl": {
+			"childs": {
+				"monthspin": {
+					"prop_type": "id",
+					"value_type": "Spin"
+				},
+				"nextbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"prevbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"yearspin": {
+					"prop_type": "id",
+					"value_type": "Spin"
+				}
+			},
+			"declaration": {
+				"ncpadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"usetrailingday": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"headerformat": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"weekformat": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"daysize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"daycolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"daybackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"daygradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"dayborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"daybordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"dayfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"headerheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"headercolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"headerbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"headergradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"headerbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"headerborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"headerfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"bodybackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"bodygradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"bodybordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"bodyborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"weekcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"weekbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"weekgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"weekfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"saturdaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"sundaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"todaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"trailingdaycolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"viewyearspin": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"viewmonthspin": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"todaybackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"todaygradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"todayborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"todaybordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"todayfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"saturdaybackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"saturdaygradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"saturdayborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"saturdaybordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"saturdayfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"sundaybackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"sundaygradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"sundayborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"sundaybordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"sundayfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"trailingdaybackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"trailingdaygradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"trailingdayborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"trailingdaybordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"trailingdayfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Div": {
+			"childs": {
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"stepalign": {
+					"prop_type": "position",
+					"value_type": "Style_align"
+				},
+				"stepshowtype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"DivControl": {
+			"childs": {
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"stepalign": {
+					"prop_type": "position",
+					"value_type": "Style_align"
+				},
+				"stepshowtype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Edit": {
+			"childs": {},
+			"declaration": {
+				"align": {
+					"prop_type": "textalign",
+					"value_type": "Style_align"
+				},
+				"selectbackground": {
+					"prop_type": "background",
+					"value_type": "Style_color"
+				},
+				"selectcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"displaynulltextcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"EditControl": {
+			"childs": {},
+			"declaration": {
+				"align": {
+					"prop_type": "textalign",
+					"value_type": "Style_align"
+				},
+				"selectbackground": {
+					"prop_type": "background",
+					"value_type": "Style_color"
+				},
+				"selectcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"displaynulltextcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"FileDownload": {
+			"childs": {},
+			"declaration": {
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"FileDownloadControl": {
+			"childs": {},
+			"declaration": {
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"FileUpload": {
+			"childs": {
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"buttonaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"buttongradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"buttonsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"buttontext": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"editaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"editgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"editcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"buttoncolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"editborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"buttonborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"editbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"buttonbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"editbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"buttonbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"editpadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"buttonpadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"editmargin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"buttonmargin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"editfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"buttonfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"itemheight": {
+					"prop_type": "size",
+					"value_type": ".Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"FileUploadControl": {
+			"childs": {
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"buttonaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"buttongradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"buttonsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"buttontext": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"editaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"editgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"editcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"buttoncolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"editborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"buttonborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"editbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"buttonbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"editbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"buttonbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"editpadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"buttonpadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"editmargin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"buttonmargin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"editfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"buttonfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"itemheight": {
+					"prop_type": "size",
+					"value_type": ".Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"FlashPlayer": {
+			"childs": {},
+			"declaration": {
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"FlashPlayerControl": {
+			"childs": {},
+			"declaration": {
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Grid": {
+			"childs": {
+				"body": {
+					"prop_type": "id",
+					"value_type": "Band"
+				},
+				"controlbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"controlcalendar": {
+					"prop_type": "id",
+					"value_type": "Calendar"
+				},
+				"controlcheckbox": {
+					"prop_type": "id",
+					"value_type": "CheckBox"
+				},
+				"controlcombo": {
+					"prop_type": "id",
+					"value_type": "Combo"
+				},
+				"controledit": {
+					"prop_type": "id",
+					"value_type": "Edit"
+				},
+				"controlexpand": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"controlmaskedit": {
+					"prop_type": "id",
+					"value_type": "MaskEdit"
+				},
+				"controlprogressbar": {
+					"prop_type": "id",
+					"value_type": "ProgressBar"
+				},
+				"controltextarea": {
+					"prop_type": "id",
+					"value_type": "TextArea"
+				},
+				"head": {
+					"prop_type": "id",
+					"value_type": "Band"
+				},
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"summ": {
+					"prop_type": "id",
+					"value_type": "Band"
+				},
+				"summary": {
+					"prop_type": "id",
+					"value_type": "Band"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"line": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"selectline": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"selectpointimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"treeclosebuttonimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"treecollapseimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"treeexpandimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"treeitemimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"treelinetype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_line"
+				},
+				"treeopenbuttonimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"GridControl": {
+			"childs": {
+				"body": {
+					"prop_type": "id",
+					"value_type": "Band"
+				},
+				"controlbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"controlcalendar": {
+					"prop_type": "id",
+					"value_type": "Calendar"
+				},
+				"controlcheckbox": {
+					"prop_type": "id",
+					"value_type": "CheckBox"
+				},
+				"controlcombo": {
+					"prop_type": "id",
+					"value_type": "Combo"
+				},
+				"controledit": {
+					"prop_type": "id",
+					"value_type": "Edit"
+				},
+				"controlexpand": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"controlmaskedit": {
+					"prop_type": "id",
+					"value_type": "MaskEdit"
+				},
+				"controlprogressbar": {
+					"prop_type": "id",
+					"value_type": "ProgressBar"
+				},
+				"controltextarea": {
+					"prop_type": "id",
+					"value_type": "TextArea"
+				},
+				"head": {
+					"prop_type": "id",
+					"value_type": "Band"
+				},
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"summ": {
+					"prop_type": "id",
+					"value_type": "Band"
+				},
+				"summary": {
+					"prop_type": "id",
+					"value_type": "Band"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"line": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"selectline": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"selectpointimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"treeclosebuttonimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"treecollapseimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"treeexpandimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"treeitemimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"treelinetype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_line"
+				},
+				"treeopenbuttonimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Band": {
+			"childs": {},
+			"declaration": {
+				"cellalign": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"cellbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"cellbackground2": {
+					"prop_type": "background-odd",
+					"value_type": "Style_background"
+				},
+				"cellcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cellcolor2": {
+					"prop_type": "color-odd",
+					"value_type": "Style_color"
+				},
+				"cellfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"cellgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"cellgradation2": {
+					"prop_type": "gradation-odd",
+					"value_type": "Style_gradation"
+				},
+				"cellline": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"cellpadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"selectborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"selectbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"selectcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"selectfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"selectgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"selectline": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Cell": {
+			"childs": {},
+			"declaration": {
+				"background2": {
+					"prop_type": "background-odd",
+					"value_type": "Style_background"
+				},
+				"backgroundimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"color2": {
+					"prop_type": "color-odd",
+					"value_type": "Style_color"
+				},
+				"controlaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"controlalign": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"controlbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"controlborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"controlbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"controlbuttonsize": {
+					"prop_type": "controlbuttonsize",
+					"value_type": "Style_value"
+				},
+				"controlfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"controlgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"gradation2": {
+					"prop_type": "gradation-odd",
+					"value_type": "Style_gradation"
+				},
+				"line": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"selectbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"selectcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"selectfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"selectgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"selectline": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"GroupBox": {
+			"childs": {},
+			"declaration": {
+				"titlebackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"titlegradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"titleimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"titleimagealign": {
+					"prop_type": "imagetextalign",
+					"value_type": "Style_align"
+				},
+				"titlepadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"GroupBoxControl": {
+			"childs": {},
+			"declaration": {
+				"titlebackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"titlegradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"titleimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"titleimagealign": {
+					"prop_type": "imagetextalign",
+					"value_type": "Style_align"
+				},
+				"titlepadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"ImageViewer": {
+			"childs": {},
+			"declaration": {
+				"titlebackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"titlegradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"titleimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"titleimagealign": {
+					"prop_type": "imagetextalign",
+					"value_type": "Style_align"
+				},
+				"titlepadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"ImageViewerControl": {
+			"childs": {},
+			"declaration": {
+				"titlebackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"titlegradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"titleimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"titleimagealign": {
+					"prop_type": "imagetextalign",
+					"value_type": "Style_align"
+				},
+				"titlepadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"ListBox": {
+			"childs": {
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"itemaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"itembackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"itemborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"itembordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"itemgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"itemheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"itempadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"ListBoxControl": {
+			"childs": {
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"itemaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"itembackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"itemborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"itembordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"itemgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"itemheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"itempadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Map": {
+			"childs": {},
+			"declaration": {
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"MapControl": {
+			"childs": {},
+			"declaration": {
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"MaskEdit": {
+			"childs": {},
+			"declaration": {
+				"align": {
+					"prop_type": "textalign",
+					"value_type": "Style_align"
+				},
+				"displaynulltextcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"selectbackground": {
+					"prop_type": "background",
+					"value_type": "Style_color"
+				},
+				"selectcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"MaskEditControl": {
+			"childs": {},
+			"declaration": {
+				"align": {
+					"prop_type": "textalign",
+					"value_type": "Style_align"
+				},
+				"displaynulltextcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"selectbackground": {
+					"prop_type": "background",
+					"value_type": "Style_color"
+				},
+				"selectcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Menu": {
+			"childs": {},
+			"declaration": {
+				"autohotkey": {
+					"prop_type": "control",
+					"value_type": "Style_value"
+				},
+				"checkboximage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"expandimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"itemaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"itemalign": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"itembackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"itemborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"itembordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"itemgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"itempadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"popupbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"popupborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"popupbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"popupcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"popupfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"popupgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"popupitembackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"popupitemborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"popupitembordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"popupitemgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"popupitemheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"popupitempadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"popuppadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"popuptype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"MenuControl": {
+			"childs": {},
+			"declaration": {
+				"autohotkey": {
+					"prop_type": "control",
+					"value_type": "Style_value"
+				},
+				"checkboximage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"expandimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"itemaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"itemalign": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"itembackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"itemborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"itembordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"itemgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"itempadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"popupbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"popupborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"popupbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"popupcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"popupfont": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"popupgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"popupitembackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"popupitemborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"popupitembordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"popupitemgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"popupitemheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"popupitempadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"popuppadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"popuptype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Plugin": {
+			"childs": {},
+			"declaration": {
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"PluginControl": {
+			"childs": {},
+			"declaration": {
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"PopupDiv": {
+			"childs": {
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"stepalign": {
+					"prop_type": "position",
+					"value_type": "Style_align"
+				},
+				"stepshowtype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"PopupDivControl": {
+			"childs": {
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"stepalign": {
+					"prop_type": "position",
+					"value_type": "Style_align"
+				},
+				"stepshowtype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"PopupMenu": {
+			"childs": {},
+			"declaration": {
+				"checkboximage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"expandimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"itemaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"itemalign": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"itembackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"itemborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"itembordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"itemgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"itemheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"itempadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"popuptype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"PopupMenuControl": {
+			"childs": {},
+			"declaration": {
+				"checkboximage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"expandimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"itemaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"itemalign": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"itembackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"itemborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"itembordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"itemgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"itemheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"itempadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"popuptype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"ProgressBar": {
+			"childs": {},
+			"declaration": {
+				"barcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"bargradation": {
+					"prop_type": "color-gradation",
+					"value_type": "Style_gradation"
+				},
+				"bartype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"direction": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"endimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"progressimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"smooth": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"startimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"ProgressBarControl": {
+			"childs": {},
+			"declaration": {
+				"barcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"bargradation": {
+					"prop_type": "color-gradation",
+					"value_type": "Style_gradation"
+				},
+				"bartype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"direction": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"endimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"progressimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"smooth": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"startimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Radio": {
+			"childs": {},
+			"declaration": {
+				"buttonalign": {
+					"prop_type": "imagealign",
+					"value_type": "Style_align"
+				},
+				"buttonbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"buttonborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"buttongradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"buttonimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"buttonsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"itemaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"itembackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"itemborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"itembordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"itemgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"itempadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"textpadding": {
+					"prop_type": "textpadding",
+					"value_type": "Style_padding"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"RadioControl": {
+			"childs": {},
+			"declaration": {
+				"buttonalign": {
+					"prop_type": "imagealign",
+					"value_type": "Style_align"
+				},
+				"buttonbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"buttonborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"buttongradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"buttonimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"buttonsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"itemaccessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"itembackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"itemborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"itembordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"itemgradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"itempadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"textpadding": {
+					"prop_type": "textpadding",
+					"value_type": "Style_padding"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Sketch": {
+			"childs": {},
+			"declaration": {
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"SketchControl": {
+			"childs": {},
+			"declaration": {
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Spin": {
+			"childs": {
+				"spindownbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"spinedit": {
+					"prop_type": "id",
+					"value_type": "Edit"
+				},
+				"spinupbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"buttonalign": {
+					"prop_type": "position",
+					"value_type": "Style_align"
+				},
+				"buttonsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"displaynulltextcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"SpinControl": {
+			"childs": {
+				"spindownbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"spinedit": {
+					"prop_type": "id",
+					"value_type": "Edit"
+				},
+				"spinupbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"buttonalign": {
+					"prop_type": "position",
+					"value_type": "Style_align"
+				},
+				"buttonsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"displaynulltextcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Static": {
+			"childs": {},
+			"declaration": {
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"StaticControl": {
+			"childs": {},
+			"declaration": {
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"StatusBarControl": {
+			"childs": {
+				"progressbar": {
+					"prop_type": "id",
+					"value_type": "ProgressBar"
+				},
+				"zoomcombo": {
+					"prop_type": "id",
+					"value_type": "Combo"
+				}
+			},
+			"declaration": {
+				"gripimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"progressbarheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"progressbarwidth": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"progressbargab": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"progressbargap": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"zoomcomboheight": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"zoomcombowidth": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"zoomcombogab": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"zoomcombogap": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Step": {
+			"childs": {},
+			"declaration": {
+				"buttonalign": {
+					"prop_type": "imagetextalign",
+					"value_type": "Style_align"
+				},
+				"buttonbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"buttonborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"buttonbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"buttongradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"buttonimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"buttonpadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"buttonsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"StepControl": {
+			"childs": {},
+			"declaration": {
+				"buttonalign": {
+					"prop_type": "imagetextalign",
+					"value_type": "Style_align"
+				},
+				"buttonbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"buttonborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"buttonbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"buttongradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"buttonimage": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"buttonpadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"buttonsize": {
+					"prop_type": "size",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Tab": {
+			"childs": {
+				"spindownbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"spinupbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"buttonbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"buttonborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"buttonbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"buttongradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"buttonpadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"focusborder": {
+					"prop_type": "border",
+					"value_type": "Style_value"
+				},
+				"showextrabutton": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"stepalign": {
+					"prop_type": "position",
+					"value_type": "Style_align"
+				},
+				"stepshowtype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"TabControl": {
+			"childs": {
+				"spindownbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"spinupbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"buttonbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"buttonborder": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"buttonbordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"buttongradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"buttonpadding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"focusborder": {
+					"prop_type": "border",
+					"value_type": "Style_value"
+				},
+				"showextrabutton": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"stepalign": {
+					"prop_type": "position",
+					"value_type": "Style_align"
+				},
+				"stepshowtype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"Tabpage": {
+			"childs": {
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"stepalign": {
+					"prop_type": "position",
+					"value_type": "Style_align"
+				},
+				"stepshowtype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"TabpageControl": {
+			"childs": {
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"stepalign": {
+					"prop_type": "position",
+					"value_type": "Style_align"
+				},
+				"stepshowtype": {
+					"prop_type": "display",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"TextArea": {
+			"childs": {
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"align": {
+					"prop_type": "textalign",
+					"value_type": "Style_align"
+				},
+				"displaynulltextcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"linespace": {
+					"prop_type": "lineheight",
+					"value_type": "Style_value"
+				},
+				"selectbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"selectcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"TextAreaControl": {
+			"childs": {
+				"hscrollbar": {
+					"prop_type": "id",
+					"value_type": "HScrollBarControl"
+				},
+				"vscrollbar": {
+					"prop_type": "id",
+					"value_type": "VScrollBarControl"
+				}
+			},
+			"declaration": {
+				"align": {
+					"prop_type": "textalign",
+					"value_type": "Style_align"
+				},
+				"displaynulltextcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"linespace": {
+					"prop_type": "lineheight",
+					"value_type": "Style_value"
+				},
+				"selectbackground": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"selectcolor": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"TitleBarControl": {
+			"childs": {
+				"minbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"normalbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"maxbutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				},
+				"closebutton": {
+					"prop_type": "id",
+					"value_type": "Button"
+				}
+			},
+			"declaration": {
+				"icon": {
+					"prop_type": "image",
+					"value_type": "Style_value"
+				},
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"WebBrowser": {
+			"childs": {},
+			"declaration": {
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		},
+		"WebBrowserControl": {
+			"childs": {},
+			"declaration": {
+				"accessibility": {
+					"prop_type": "accessibility",
+					"value_type": "Style_accessibility"
+				},
+				"align": {
+					"prop_type": "align",
+					"value_type": "Style_align"
+				},
+				"background": {
+					"prop_type": "background",
+					"value_type": "Style_background"
+				},
+				"border": {
+					"prop_type": "border",
+					"value_type": "Style_border"
+				},
+				"bordertype": {
+					"prop_type": "bordertype",
+					"value_type": "Style_bordertype"
+				},
+				"color": {
+					"prop_type": "color",
+					"value_type": "Style_color"
+				},
+				"cursor": {
+					"prop_type": "cursor",
+					"value_type": "Style_value"
+				},
+				"font": {
+					"prop_type": "font",
+					"value_type": "Style_font"
+				},
+				"gradation": {
+					"prop_type": "gradation",
+					"value_type": "Style_gradation"
+				},
+				"margin": {
+					"prop_type": "margin",
+					"value_type": "Style_margin"
+				},
+				"letterspace": {
+					"prop_type": "letterspace",
+					"value_type": "Style_value"
+				},
+				"opacity": {
+					"prop_type": "opacity",
+					"value_type": "Style_value"
+				},
+				"padding": {
+					"prop_type": "padding",
+					"value_type": "Style_padding"
+				},
+				"shadow": {
+					"prop_type": "shadow",
+					"value_type": "Style_shadow"
+				}
+			}
+		}
+	},
+	"ids": {
+		"hscrollbar": [
+			"Form",
+			"Div",
+			"DivControl",
+			"FileUpload",
+			"FileUploadControl",
+			"Grid",
+			"GridControl",
+			"ListBox",
+			"ListBoxControl",
+			"PopupDiv",
+			"PopupDivControl",
+			"Tabpage",
+			"TabpageControl",
+			"TextArea",
+			"TextAreaControl"
+		],
+		"vscrollbar": [
+			"Form",
+			"Div",
+			"DivControl",
+			"FileUpload",
+			"FileUploadControl",
+			"Grid",
+			"GridControl",
+			"ListBox",
+			"ListBoxControl",
+			"PopupDiv",
+			"PopupDivControl",
+			"Tabpage",
+			"TabpageControl",
+			"TextArea",
+			"TextAreaControl"
+		],
+		"statusbar": [
+			"ChildFrame",
+			"FrameSet",
+			"HFrameSet",
+			"MainFrame",
+			"TileFrameSet",
+			"VFrameSet"
+		],
+		"titlebar": [
+			"ChildFrame",
+			"FrameSet",
+			"HFrameSet",
+			"MainFrame",
+			"TileFrameSet",
+			"VFrameSet"
+		],
+		"decbutton": [
+			"ScrollBar",
+			"ScrollBarControl",
+			"VScrollBar",
+			"VScrollBarControl",
+			"HScrollBar",
+			"HScrollBarControl"
+		],
+		"incbutton": [
+			"ScrollBar",
+			"ScrollBarControl",
+			"VScrollBar",
+			"VScrollBarControl",
+			"HScrollBar",
+			"HScrollBarControl"
+		],
+		"trackbar": [
+			"ScrollBar",
+			"ScrollBarControl",
+			"VScrollBar",
+			"VScrollBarControl",
+			"HScrollBar",
+			"HScrollBarControl"
+		],
+		"calendaredit": [
+			"Calendar",
+			"CalendarControl"
+		],
+		"dropbutton": [
+			"Calendar",
+			"CalendarControl",
+			"Combo",
+			"ComboControl"
+		],
+		"popupcalendar": [
+			"Calendar",
+			"CalendarControl"
+		],
+		"spindownbutton": [
+			"Calendar",
+			"CalendarControl",
+			"Spin",
+			"SpinControl",
+			"Tab",
+			"TabControl"
+		],
+		"spinupbutton": [
+			"Calendar",
+			"CalendarControl",
+			"Spin",
+			"SpinControl",
+			"Tab",
+			"TabControl"
+		],
+		"comboedit": [
+			"Combo",
+			"ComboControl"
+		],
+		"combolist": [
+			"Combo",
+			"ComboControl"
+		],
+		"monthspin": [
+			"DatePicker",
+			"DatePickerControl"
+		],
+		"nextbutton": [
+			"DatePicker",
+			"DatePickerControl"
+		],
+		"prevbutton": [
+			"DatePicker",
+			"DatePickerControl"
+		],
+		"yearspin": [
+			"DatePicker",
+			"DatePickerControl"
+		],
+		"body": [
+			"Grid",
+			"GridControl"
+		],
+		"controlbutton": [
+			"Grid",
+			"GridControl"
+		],
+		"controlcalendar": [
+			"Grid",
+			"GridControl"
+		],
+		"controlcheckbox": [
+			"Grid",
+			"GridControl"
+		],
+		"controlcombo": [
+			"Grid",
+			"GridControl"
+		],
+		"controledit": [
+			"Grid",
+			"GridControl"
+		],
+		"controlexpand": [
+			"Grid",
+			"GridControl"
+		],
+		"controlmaskedit": [
+			"Grid",
+			"GridControl"
+		],
+		"controlprogressbar": [
+			"Grid",
+			"GridControl"
+		],
+		"controltextarea": [
+			"Grid",
+			"GridControl"
+		],
+		"head": [
+			"Grid",
+			"GridControl"
+		],
+		"summ": [
+			"Grid",
+			"GridControl"
+		],
+		"summary": [
+			"Grid",
+			"GridControl"
+		],
+		"spinedit": [
+			"Spin",
+			"SpinControl"
+		],
+		"progressbar": [
+			"StatusBarControl"
+		],
+		"zoomcombo": [
+			"StatusBarControl"
+		],
+		"minbutton": [
+			"TitleBarControl"
+		],
+		"normalbutton": [
+			"TitleBarControl"
+		],
+		"maxbutton": [
+			"TitleBarControl"
+		],
+		"closebutton": [
+			"TitleBarControl"
+		]
+	},
+	"props": {
+		"accessibility": [
+			"Style_accessibility"
+		],
+		"align": [
+			"Style_align"
+		],
+		"background": [
+			"Style_background"
+		],
+		"border": [
+			"Style_border"
+		],
+		"bordertype": [
+			"Style_bordertype"
+		],
+		"color": [
+			"Style_color"
+		],
+		"cursor": [
+			"Style_value"
+		],
+		"font": [
+			"Style_font"
+		],
+		"gradation": [
+			"Style_gradation"
+		],
+		"margin": [
+			"Style_margin"
+		],
+		"letterspace": [
+			"Style_value"
+		],
+		"opacity": [
+			"Style_value"
+		],
+		"padding": [
+			"Style_padding"
+		],
+		"shadow": [
+			"Style_shadow"
+		],
+		"icon": [
+			"Style_value"
+		],
+		"gripimage": [
+			"Style_value"
+		],
+		"progressbarheight": [
+			"Style_value"
+		],
+		"progressbarwidth": [
+			"Style_value"
+		],
+		"progressbargab": [
+			"Style_value"
+		],
+		"progressbargap": [
+			"Style_value"
+		],
+		"zoomcomboheight": [
+			"Style_value"
+		],
+		"zoomcombowidth": [
+			"Style_value"
+		],
+		"zoomcombogab": [
+			"Style_value"
+		],
+		"zoomcombogap": [
+			"Style_value"
+		],
+		"barminsize": [
+			"Style_value"
+		],
+		"baroutsize": [
+			"Style_value"
+		],
+		"incbtnsize": [
+			"Style_value"
+		],
+		"decbtnsize": [
+			"Style_value"
+		],
+		"imgoutsize": [
+			"Style_value"
+		],
+		"scrollbarsize": [
+			"Style_value"
+		],
+		"trackbarsize": [
+			"Style_value"
+		],
+		"statusbarheight": [
+			"Style_value"
+		],
+		"titlebarheight": [
+			"Style_value"
+		],
+		"overlaycolor": [
+			"Style_value"
+		],
+		"minimizewidth": [
+			"Style_value"
+		],
+		"minimizeheight": [
+			"Style_value"
+		],
+		"menubarheight": [
+			"Style_value"
+		],
+		"stepalign": [
+			"Style_align"
+		],
+		"stepshowtype": [
+			"Style_value"
+		],
+		"image": [
+			"Style_value"
+		],
+		"imagealign": [
+			"Style_align"
+		],
+		"daysize": [
+			"Style_value"
+		],
+		"daycolor": [
+			"Style_color"
+		],
+		"popupsize": [
+			"Style_value"
+		],
+		"usetrailingday": [
+			"Style_value"
+		],
+		"trailingdaycolor": [
+			"Style_color"
+		],
+		"buttonsize": [
+			"Style_value"
+		],
+		"viewyearspin": [
+			"Style_value"
+		],
+		"viewmonthspin": [
+			"Style_value"
+		],
+		"daybackground": [
+			"Style_background"
+		],
+		"popupbackground": [
+			"Style_background"
+		],
+		"dayborder": [
+			"Style_border"
+		],
+		"popupborder": [
+			"Style_border"
+		],
+		"daybordertype": [
+			"Style_bordertype"
+		],
+		"popupbordertype": [
+			"Style_bordertype"
+		],
+		"daygradation": [
+			"Style_gradation"
+		],
+		"popupgradation": [
+			"Style_gradation"
+		],
+		"dayfont": [
+			"Style_font"
+		],
+		"popupfont": [
+			"Style_font"
+		],
+		"itemaccessibility": [
+			"Style_accessibility"
+		],
+		"popuptype": [
+			"Style_value"
+		],
+		"popupalign": [
+			"Style_value"
+		],
+		"displaynulltextcolor": [
+			"Style_color"
+		],
+		"ncpadding": [
+			"Style_padding"
+		],
+		"headerformat": [
+			"Style_value"
+		],
+		"weekformat": [
+			"Style_value"
+		],
+		"headerheight": [
+			"Style_value"
+		],
+		"headercolor": [
+			"Style_color"
+		],
+		"headerbackground": [
+			"Style_background"
+		],
+		"headergradation": [
+			"Style_gradation"
+		],
+		"headerbordertype": [
+			"Style_bordertype"
+		],
+		"headerborder": [
+			"Style_border"
+		],
+		"headerfont": [
+			"Style_font"
+		],
+		"bodybackground": [
+			"Style_background"
+		],
+		"bodygradation": [
+			"Style_gradation"
+		],
+		"bodybordertype": [
+			"Style_bordertype"
+		],
+		"bodyborder": [
+			"Style_border"
+		],
+		"weekcolor": [
+			"Style_color"
+		],
+		"weekbackground": [
+			"Style_background"
+		],
+		"weekgradation": [
+			"Style_gradation"
+		],
+		"weekfont": [
+			"Style_font"
+		],
+		"saturdaycolor": [
+			"Style_color"
+		],
+		"sundaycolor": [
+			"Style_color"
+		],
+		"todaycolor": [
+			"Style_color"
+		],
+		"todaybackground": [
+			"Style_background"
+		],
+		"todaygradation": [
+			"Style_gradation"
+		],
+		"todayborder": [
+			"Style_border"
+		],
+		"todaybordertype": [
+			"Style_bordertype"
+		],
+		"todayfont": [
+			"Style_font"
+		],
+		"saturdaybackground": [
+			"Style_background"
+		],
+		"saturdaygradation": [
+			"Style_gradation"
+		],
+		"saturdayborder": [
+			"Style_border"
+		],
+		"saturdaybordertype": [
+			"Style_bordertype"
+		],
+		"saturdayfont": [
+			"Style_font"
+		],
+		"sundaybackground": [
+			"Style_background"
+		],
+		"sundaygradation": [
+			"Style_gradation"
+		],
+		"sundayborder": [
+			"Style_border"
+		],
+		"sundaybordertype": [
+			"Style_bordertype"
+		],
+		"sundayfont": [
+			"Style_font"
+		],
+		"trailingdaybackground": [
+			"Style_background"
+		],
+		"trailingdaygradation": [
+			"Style_gradation"
+		],
+		"trailingdayborder": [
+			"Style_border"
+		],
+		"trailingdaybordertype": [
+			"Style_bordertype"
+		],
+		"trailingdayfont": [
+			"Style_font"
+		],
+		"buttonalign": [
+			"Style_align"
+		],
+		"buttonimage": [
+			"Style_value"
+		],
+		"textpadding": [
+			"Style_padding"
+		],
+		"buttonborder": [
+			"Style_border"
+		],
+		"buttonbordertype": [
+			"Style_bordertype"
+		],
+		"buttonbackground": [
+			"Style_background"
+		],
+		"buttongradation": [
+			"Style_gradation"
+		],
+		"buttonbackgroundimagemode": [
+			"Style_value"
+		],
+		"itemgradation": [
+			"Style_gradation"
+		],
+		"itembackground": [
+			"Style_background"
+		],
+		"itemcolor": [
+			"Style_color"
+		],
+		"itemborder": [
+			"Style_border"
+		],
+		"itembordertype": [
+			"Style_bordertype"
+		],
+		"itemfont": [
+			"Style_font"
+		],
+		"itemheight": [
+			"Style_value",
+			".Style_value"
+		],
+		"itempadding": [
+			"Style_padding"
+		],
+		"selectbackground": [
+			"Style_color",
+			"Style_background"
+		],
+		"selectcolor": [
+			"Style_color"
+		],
+		"buttonaccessibility": [
+			"Style_accessibility"
+		],
+		"buttontext": [
+			"Style_value"
+		],
+		"editaccessibility": [
+			"Style_accessibility"
+		],
+		"editgradation": [
+			"Style_gradation"
+		],
+		"editcolor": [
+			"Style_color"
+		],
+		"buttoncolor": [
+			"Style_color"
+		],
+		"editborder": [
+			"Style_border"
+		],
+		"editbordertype": [
+			"Style_bordertype"
+		],
+		"editbackground": [
+			"Style_background"
+		],
+		"editpadding": [
+			"Style_padding"
+		],
+		"buttonpadding": [
+			"Style_padding"
+		],
+		"editmargin": [
+			"Style_margin"
+		],
+		"buttonmargin": [
+			"Style_margin"
+		],
+		"editfont": [
+			"Style_font"
+		],
+		"buttonfont": [
+			"Style_font"
+		],
+		"line": [
+			"Style_border"
+		],
+		"selectline": [
+			"Style_border"
+		],
+		"selectpointimage": [
+			"Style_value"
+		],
+		"treeclosebuttonimage": [
+			"Style_value"
+		],
+		"treecollapseimage": [
+			"Style_value"
+		],
+		"treeexpandimage": [
+			"Style_value"
+		],
+		"treeitemimage": [
+			"Style_value"
+		],
+		"treelinetype": [
+			"Style_line"
+		],
+		"treeopenbuttonimage": [
+			"Style_value"
+		],
+		"cellalign": [
+			"Style_align"
+		],
+		"cellbackground": [
+			"Style_background"
+		],
+		"cellbackground2": [
+			"Style_background"
+		],
+		"cellcolor": [
+			"Style_color"
+		],
+		"cellcolor2": [
+			"Style_color"
+		],
+		"cellfont": [
+			"Style_font"
+		],
+		"cellgradation": [
+			"Style_gradation"
+		],
+		"cellgradation2": [
+			"Style_gradation"
+		],
+		"cellline": [
+			"Style_border"
+		],
+		"cellpadding": [
+			"Style_padding"
+		],
+		"selectborder": [
+			"Style_border"
+		],
+		"selectfont": [
+			"Style_font"
+		],
+		"selectgradation": [
+			"Style_gradation"
+		],
+		"background2": [
+			"Style_background"
+		],
+		"backgroundimage": [
+			"Style_value"
+		],
+		"color2": [
+			"Style_color"
+		],
+		"controlaccessibility": [
+			"Style_accessibility"
+		],
+		"controlalign": [
+			"Style_align"
+		],
+		"controlbackground": [
+			"Style_background"
+		],
+		"controlborder": [
+			"Style_border"
+		],
+		"controlbordertype": [
+			"Style_bordertype"
+		],
+		"controlbuttonsize": [
+			"Style_value"
+		],
+		"controlfont": [
+			"Style_font"
+		],
+		"controlgradation": [
+			"Style_gradation"
+		],
+		"gradation2": [
+			"Style_gradation"
+		],
+		"titlebackground": [
+			"Style_background"
+		],
+		"titlegradation": [
+			"Style_gradation"
+		],
+		"titleimage": [
+			"Style_value"
+		],
+		"titleimagealign": [
+			"Style_align"
+		],
+		"titlepadding": [
+			"Style_padding"
+		],
+		"autohotkey": [
+			"Style_value"
+		],
+		"checkboximage": [
+			"Style_value"
+		],
+		"expandimage": [
+			"Style_value"
+		],
+		"itemalign": [
+			"Style_align"
+		],
+		"popupcolor": [
+			"Style_color"
+		],
+		"popupitembackground": [
+			"Style_background"
+		],
+		"popupitemborder": [
+			"Style_border"
+		],
+		"popupitembordertype": [
+			"Style_bordertype"
+		],
+		"popupitemgradation": [
+			"Style_gradation"
+		],
+		"popupitemheight": [
+			"Style_value"
+		],
+		"popupitempadding": [
+			"Style_padding"
+		],
+		"popuppadding": [
+			"Style_padding"
+		],
+		"barcolor": [
+			"Style_color"
+		],
+		"bargradation": [
+			"Style_gradation"
+		],
+		"bartype": [
+			"Style_value"
+		],
+		"direction": [
+			"Style_value"
+		],
+		"endimage": [
+			"Style_value"
+		],
+		"progressimage": [
+			"Style_value"
+		],
+		"smooth": [
+			"Style_value"
+		],
+		"startimage": [
+			"Style_value"
+		],
+		"focusborder": [
+			"Style_value"
+		],
+		"showextrabutton": [
+			"Style_value"
+		],
+		"linespace": [
+			"Style_value"
+		]
+	}
+}

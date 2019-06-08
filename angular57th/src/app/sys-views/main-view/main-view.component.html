@@ -1,0 +1,15 @@
+<app-top></app-top>
+<div class="container-fluid">
+      <div class="row">
+            <div style="width:300px; ">      
+                  <app-menu-tree></app-menu-tree>
+            </div>  
+            <main [@routeAnimations]="prepareRoute(outlet)">
+                  <router-outlet #outlet="outlet"> </router-outlet>
+            </main> 
+      </div>
+</div>
+<app-footer></app-footer>
+
+     
+    
